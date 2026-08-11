@@ -1,109 +1,140 @@
-# 医学图像配准软件交付文件
+# FastMedOT: Medical Image Registration Software Delivery Package
 
-这个文件夹包含的是**正式软件运行所需要的最小代码集合**。
+This folder contains the **minimum set of code required to run FastMedOT**, an optimal transport-based tool for rigid medical image registration, with a primary focus on multimodal medical images.
 
-它的目标不是保留全部实验过程，而是保留：
+The purpose of this delivery package is not to preserve the entire experimental workflow, but to retain the components required for the deployable FastMedOT workflow:
 
-1. 原始图像输入  
-2. `modified` 方法配准  
-3. 配准后 3D 输出  
-4. 配准后 `self` 切片输出  
-5. 医生可直接使用的图形界面
+1. Moving and fixed medical image input
+2. Point extraction and preprocessing
+3. Weighted `k`-center coreset compression
+4. Optimal transport-based rigid registration
+5. Registered 3D image reconstruction and slice visualization
+6. Graphical and command-line interfaces
 
----
-
-## 1. 这个文件夹里包含什么
-
-### Python 入口
-
-- `doctor_registration_gui.py`
-  医生版图形界面入口，推荐正式使用时直接运行它
-
-- `one_click_registration.py`
-  一步式后台主入口，负责串联完整流程
-
-### Python 功能模块
-
-- `step1.py`
-  原始医学图像 -> 点云预处理
-
-- `visualize_registration_result.py`
-  配准结果 -> 3D 与切片输出
-
-- `batch_prepare_experiments.py`
-  这里主要保留了其中被一步式脚本复用的文件整理功能
-
-### MATLAB 配准核心
-
-- `main.m`
-  正式软件使用的唯一 MATLAB 配准主函数，也就是 `modified`
-
-- `KCenter.m`
-  `main.m` 使用的点集压缩模块
-
-- `SinkhornInit.m`
-  初始刚体匹配核心
-
-- `Sinkhorn.m`
-  Sinkhorn 距离与流矩阵计算
-
-- `distance.m`
-  点集距离矩阵计算
-
-- `Transport.m`
-  Sinkhorn/OT 求解底层函数
+> **Naming note:** `modified` is retained only as an internal implementation name in the current codebase. In documentation and user-facing descriptions, the registration tool should be referred to as **FastMedOT**.
 
 ---
 
-## 2. 为什么只保留这些文件
+## 1. What This Folder Contains
 
-因为正式软件目前只使用：
+### Python Entry Points
 
-- 单病例输入
-- `modified` 方法
-- 自动预处理
-- 自动生成配准后结果
-- 自动生成 `self` 版本切片
+- `doctor_registration_gui.py`  
+  Graphical user interface entry point for FastMedOT. It is recommended for doctors and general users who prefer an interactive workflow.
 
-所以以下类型的文件**没有放进来**：
+- `one_click_registration.py`  
+  One-click command-line/backend entry point that connects the complete FastMedOT registration workflow.
 
-- 批量实验脚本
-- 对比算法脚本
-- 误差分析脚本
-- 实验性 MATLAB 版本
-- 论文复现实验代码
-- 数据集整理与评估用的附加脚本
+### Python Functional Modules
 
-这样做的好处是：
+- `step1.py`  
+  Loads the original medical images and performs preprocessing and 3D point extraction for registration.
 
-- 软件结构更干净
-- 更适合交付给别人使用
-- 不容易误用实验脚本
-- 后续做图形界面封装更方便
+- `visualize_registration_result.py`  
+  Reconstructs and visualizes registration results, including registered 3D volumes and slice outputs.
+
+- `batch_prepare_experiments.py`  
+  This delivery package retains only the file-organization functionality reused by the one-click FastMedOT workflow.
+
+### MATLAB Registration Core
+
+- `main.m`  
+  The main MATLAB registration function used by FastMedOT. It performs the core rigid registration workflow based on weighted coreset compression, entropy-regularized optimal transport, and rigid transform estimation. In the current codebase, this implementation is internally referred to as `modified`.
+
+- `KCenter.m`  
+  Weighted `k`-center point-set compression module used to construct compact coresets while representing the contribution of the original point clusters.
+
+- `SinkhornInit.m`  
+  Initialization module used by the rigid matching backend.
+
+- `Sinkhorn.m`  
+  Computes the entropy-regularized optimal transport/Sinkhorn solution and transport-related matrices.
+
+- `distance.m`  
+  Computes point-set distance matrices.
+
+- `Transport.m`  
+  Low-level function used by the Sinkhorn/optimal transport solver.
 
 ---
 
-## 3. 推荐启动方式
+## 2. FastMedOT Registration Workflow
 
-### 医生或普通用户
+FastMedOT processes a moving image and a fixed image through the following stages:
 
-直接运行：
+1. **Image loading and point extraction**  
+   The moving and fixed medical images are loaded and converted into three-dimensional point-set representations.
+
+2. **Weighted `k`-center coreset construction**  
+   Each point set is compressed into a smaller weighted coreset. Each center represents its assigned cluster so that the contribution of the original points is retained in a compact representation.
+
+3. **Optimal transport alignment**  
+   The MATLAB backend computes an entropy-regularized optimal transport plan between the weighted coresets using Sinkhorn iterations.
+
+4. **Rigid transform estimation**  
+   Soft correspondences from the transport plan are used to estimate the rigid rotation and translation.
+
+5. **Transformation and reconstruction**  
+   The estimated transform is applied to the original moving data, and the registered image is reconstructed.
+
+6. **Result visualization and export**  
+   FastMedOT generates registered 3D outputs, slice visualizations, and a `summary.json` record.
+
+This coreset-based design reduces the size of the pairwise transport problem while preserving the contribution of the original point clusters.
+
+---
+
+## 3. Why Only These Files Are Included
+
+The deployable FastMedOT package currently focuses on:
+
+- Single moving/fixed image-pair input
+- Automatic medical image preprocessing
+- Weighted `k`-center coreset compression
+- Optimal transport-based rigid alignment
+- Automatic reconstruction of registered results
+- Automatic generation of `self` slice visualizations
+- Local execution through graphical or command-line interfaces
+
+Therefore, the following types of research and evaluation files are **not included** in this delivery folder:
+
+- Batch experiment scripts
+- Comparative algorithm scripts
+- Error-analysis scripts
+- Experimental MATLAB versions
+- Paper reproduction experiment code
+- Additional scripts for dataset organization and benchmark evaluation
+
+The benefits of this packaging approach are:
+
+- A cleaner FastMedOT software structure
+- Better suitability for software delivery and demonstration
+- Lower risk of accidentally using experimental scripts
+- Easier future packaging as a standalone GUI or desktop application
+
+---
+
+## 4. Recommended Startup Methods
+
+### For Doctors or General Users
+
+Run:
 
 ```bash
 python doctor_registration_gui.py
 ```
 
-然后在界面中：
+Then, in the interface:
 
-1. 选择 `Moving` 图像
-2. 选择 `Fixed` 图像
-3. 选择模态
-4. 选择输出文件夹
-5. 点击“开始配准”
+1. Select the `Moving` image
+2. Select the `Fixed` image
+3. Select the modality of each image
+4. Select the output folder
+5. Click **Start Registration**
 
-### 技术人员
+### For Technical Users
 
-如果需要命令行方式，可运行：
+For command-line execution, run:
 
 ```bash
 python one_click_registration.py \
@@ -117,23 +148,25 @@ python one_click_registration.py \
 
 ---
 
-## 4. 输出结果
+## 5. Output Results
 
-正式软件会输出：
+FastMedOT outputs:
 
-- 配准后的 3D moving 图像
-- 对应 fixed 参考 3D 图像
-- 配准后 moving 的 `self` 切片图
-- fixed 的 `self` 切片图
-- 结果摘要 `summary.json`
+- The registered 3D moving image
+- The corresponding fixed reference 3D image
+- `self` slice visualizations of the registered moving image
+- `self` slice visualizations of the fixed image
+- A result summary in `summary.json`
+
+All registration processing is performed locally.
 
 ---
 
-## 5. 依赖
+## 6. Dependencies
 
 ### Python
 
-至少需要：
+At minimum, the following Python packages are required:
 
 - `numpy`
 - `scipy`
@@ -142,30 +175,33 @@ python one_click_registration.py \
 
 ### MATLAB
 
-需要安装 MATLAB，并且命令行可调用：
+MATLAB must be installed and callable from the command line:
 
 ```bash
 matlab
 ```
 
-如果 MATLAB 不在默认路径，可以在命令行入口中通过 `--matlab-bin` 指定。
+If MATLAB is not available through the default system path, specify its executable using `--matlab-bin` in the command-line entry point.
 
 ---
 
-## 6. 当前软件范围
+## 7. Current Software Scope
 
-这套交付文件当前适合做：
+The current FastMedOT delivery package is suitable for:
 
-- 单病例医学图像刚体配准
-- 多模态图像配准结果查看
-- 临床演示
-- 后续 GUI 或桌面程序封装
+- Rigid medical image registration
+- Multimodal medical image registration, including CT-MRI workflows
+- Inspection of registered 3D volumes and slice visualizations
+- Clinical or research demonstrations
+- Future packaging as a standalone GUI or desktop application
 
-如果以后你要继续做：
+The current release supports **rigid registration only** and requires MATLAB for the registration backend.
 
-- 批量实验
-- 多算法比较
-- 评估分析
-- 论文复现
+If you later need to perform:
 
-建议继续使用项目根目录中的完整代码，而不是只使用这个交付文件夹。
+- Batch experiments
+- Multi-algorithm comparisons
+- Benchmark evaluation and error analysis
+- Paper reproduction experiments
+
+it is recommended to use the complete project codebase rather than relying only on this minimal FastMedOT delivery package.
