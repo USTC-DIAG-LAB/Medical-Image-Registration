@@ -1,0 +1,14 @@
+cff-version: 1.2.0
+message: "Please cite this software when using FOTMIR."
+title: "FOTMIR: A Fast Optimal Transport-Based Tool for Multimodal Medical Image Registration"
+version: 1.0.0
+type: software
+repository-code: "https://github.com/USTC-DIAG-LAB/Medical-Image-Registration"
+url: "https://github.com/USTC-DIAG-LAB/Medical-Image-Registration"
+authors:
+  - family-names: Bian
+    given-names: Feng
+  - family-names: Chen
+    given-names: Lin
+  - family-names: Ding
+    given-names: Hu

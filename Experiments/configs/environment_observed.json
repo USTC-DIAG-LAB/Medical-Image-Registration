@@ -1,0 +1,15 @@
+{
+  "observed_at": "2026-10-12",
+  "python": "3.9.23",
+  "platform": "Linux-5.4.0-216-generic-x86_64-with-glibc2.31",
+  "versions": {
+    "numpy": "2.0.2",
+    "scipy": "1.13.1",
+    "SimpleITK": "2.5.3",
+    "antspyx": "0.6.3",
+    "open3d": "0.18.0",
+    "matplotlib": "3.9.2",
+    "pandas": "2.3.2",
+    "threadpoolctl": "3.6.0"
+  }
+}

@@ -1,0 +1,60 @@
+{
+  "python": {
+    "tau": 0.05,
+    "ratio": 0.05,
+    "k_min": 50,
+    "threads": 1,
+    "single_initialization": true,
+    "refinement_iterations": 0,
+    "coreset_distance_mode": "streaming",
+    "regularization": "lambda=10/median(augmented_squared_cost); epsilon=1/lambda",
+    "sinkhorn_tolerance": 0.005,
+    "sinkhorn_counter_limit": 5000,
+    "outer_relative_tolerance": 1e-06,
+    "outer_update_limit_actual": 51
+  },
+  "icp": {
+    "threads": 1,
+    "max_iter": 100,
+    "outlier_scale": 2,
+    "tolerance": 1e-06
+  },
+  "fgr": {
+    "threads": 1,
+    "seed": 20260716,
+    "voxel_size": 0.05,
+    "normal_radius": 0.1,
+    "fpfh_radius": 0.2,
+    "maximum_correspondence_distance": 0.05,
+    "remaining_options": "Open3D 0.18.0 defaults"
+  },
+  "ants": {
+    "version": "0.6.3",
+    "threads": 28,
+    "seed": 12345,
+    "type_of_transform": "Rigid",
+    "aff_metric": "mattes",
+    "aff_sampling": 32,
+    "aff_random_sampling_rate": 0.2,
+    "aff_iterations": [
+      2100,
+      1200,
+      1200,
+      10
+    ],
+    "aff_shrink_factors": [
+      6,
+      4,
+      2,
+      1
+    ],
+    "aff_smoothing_sigmas": [
+      3,
+      2,
+      1,
+      0
+    ],
+    "singleprecision": true,
+    "remaining_options": "ANTsPy 0.6.3 defaults"
+  }
+}

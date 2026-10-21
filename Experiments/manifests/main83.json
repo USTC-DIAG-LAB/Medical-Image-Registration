@@ -1,0 +1,2990 @@
+[
+  {
+    "moving_image_file": "AbdomenMRCT/imagesTr/AbdomenMRCT_0001_0000.nii.gz",
+    "fixed_image_file": "AbdomenMRCT/imagesTr/AbdomenMRCT_0001_0001.nii.gz",
+    "moving_label_file": "AbdomenMRCT/labelsTr/AbdomenMRCT_0001_0000.nii.gz",
+    "fixed_label_file": "AbdomenMRCT/labelsTr/AbdomenMRCT_0001_0001.nii.gz",
+    "moving_mask_file": "AbdomenMRCT/masksTr/AbdomenMRCT_0001_0000.nii.gz",
+    "fixed_mask_file": "AbdomenMRCT/masksTr/AbdomenMRCT_0001_0001.nii.gz",
+    "moving_landmark_file": "",
+    "fixed_landmark_file": "",
+    "moving_modality": "MRI",
+    "fixed_modality": "CT",
+    "dataset": "AbdomenMRCT_CT_MRI",
+    "case": "AbdomenMRCT_0001__CT_to_MRI_mixed",
+    "group": "abdomen_organs",
+    "seed": 1749605794,
+    "initial_indices": [
+      3478,
+      8268
+    ],
+    "input_sha256": "553071d0e2c2b27407d21f235882f831c024754a6aa5b7f675453035746747f8",
+    "X_sha256": "cab255302bd803041e193132c06e2ea535bb4ad7c9841962f78e1bbbd856ceed",
+    "Y_sha256": "c616d7f7cd4c1b2230281c78a17d9413ef43eeccc15e62cb61eaf4ddc8349e64",
+    "center_Y_sha256": "3a39e88e85bb3bead298e7a85f73e3f68c3574bbff8ba8976e103605df154a72",
+    "scale_sha256": "2718e0d4a355ad3498ab4069756aa79d6c00515960b196e0b66c9c8add0183a2",
+    "n_points": [
+      10000,
+      10000
+    ],
+    "center_Y": [
+      -241.76759338378906,
+      -141.9738006591797,
+      281.1601867675781
+    ],
+    "scale": 194.37985229492188,
+    "prepared_input": "AbdomenMRCT_CT_MRI/AbdomenMRCT_0001__CT_to_MRI_mixed.npz"
+  },
+  {
+    "moving_image_file": "AbdomenMRCT/imagesTr/AbdomenMRCT_0002_0000.nii.gz",
+    "fixed_image_file": "AbdomenMRCT/imagesTr/AbdomenMRCT_0002_0001.nii.gz",
+    "moving_label_file": "AbdomenMRCT/labelsTr/AbdomenMRCT_0002_0000.nii.gz",
+    "fixed_label_file": "AbdomenMRCT/labelsTr/AbdomenMRCT_0002_0001.nii.gz",
+    "moving_mask_file": "AbdomenMRCT/masksTr/AbdomenMRCT_0002_0000.nii.gz",
+    "fixed_mask_file": "AbdomenMRCT/masksTr/AbdomenMRCT_0002_0001.nii.gz",
+    "moving_landmark_file": "",
+    "fixed_landmark_file": "",
+    "moving_modality": "MRI",
+    "fixed_modality": "CT",
+    "dataset": "AbdomenMRCT_CT_MRI",
+    "case": "AbdomenMRCT_0002__CT_to_MRI_mixed",
+    "group": "abdomen_organs",
+    "seed": 1263310349,
+    "initial_indices": [
+      9723,
+      7587
+    ],
+    "input_sha256": "ccad2b08bb7ac5b74b62e74f0abc083ec9e45e5de9dfc53b1a4596ad1fc626a9",
+    "X_sha256": "515c251b211dbe6958b55747e8024812b87e549e3dd406278545c94d5d9fd045",
+    "Y_sha256": "77b13cda07235298fb8aaff87ed312c4476819bde59448c298c524dc0a78385e",
+    "center_Y_sha256": "26f56f252b7f10aed129201cb6b6de82b18cf51d2fe6fbd409f5bc796c0a5686",
+    "scale_sha256": "2429d3488dee52995ab744b26df07772a77baa12ca6a6538c97a28ba06bfecf4",
+    "n_points": [
+      10000,
+      10000
+    ],
+    "center_Y": [
+      -238.0659942626953,
+      -149.99339294433594,
+      283.7760009765625
+    ],
+    "scale": 195.02149963378906,
+    "prepared_input": "AbdomenMRCT_CT_MRI/AbdomenMRCT_0002__CT_to_MRI_mixed.npz"
+  },
+  {
+    "moving_image_file": "AbdomenMRCT/imagesTr/AbdomenMRCT_0003_0000.nii.gz",
+    "fixed_image_file": "AbdomenMRCT/imagesTr/AbdomenMRCT_0003_0001.nii.gz",
+    "moving_label_file": "AbdomenMRCT/labelsTr/AbdomenMRCT_0003_0000.nii.gz",
+    "fixed_label_file": "AbdomenMRCT/labelsTr/AbdomenMRCT_0003_0001.nii.gz",
+    "moving_mask_file": "AbdomenMRCT/masksTr/AbdomenMRCT_0003_0000.nii.gz",
+    "fixed_mask_file": "AbdomenMRCT/masksTr/AbdomenMRCT_0003_0001.nii.gz",
+    "moving_landmark_file": "",
+    "fixed_landmark_file": "",
+    "moving_modality": "MRI",
+    "fixed_modality": "CT",
+    "dataset": "AbdomenMRCT_CT_MRI",
+    "case": "AbdomenMRCT_0003__CT_to_MRI_mixed",
+    "group": "abdomen_organs",
+    "seed": 1100576316,
+    "initial_indices": [
+      1597,
+      9739
+    ],
+    "input_sha256": "9e702c2bf08b04f82d634d71e06ed5d111f7194b85a31a22a45caa99f7d9b726",
+    "X_sha256": "cf0817d839f9bfe30aac964059ba3f4db06af2535694242ac4d4747269e5dd0c",
+    "Y_sha256": "5d42296e6116e78150256b5e5182c71d49c01eb237630b767e0e02577372be59",
+    "center_Y_sha256": "a00d0161e7f48db9f368c874f89d6e23858b9d6ef4284f0fef45275385d561e7",
+    "scale_sha256": "f7aad76071fc0a108c52745b7c35cc8278d69baa7cdfbb5c90f5db132e150da5",
+    "n_points": [
+      10000,
+      10000
+    ],
+    "center_Y": [
+      -219.91580200195312,
+      -168.59939575195312,
+      227.0946044921875
+    ],
+    "scale": 178.67677307128906,
+    "prepared_input": "AbdomenMRCT_CT_MRI/AbdomenMRCT_0003__CT_to_MRI_mixed.npz"
+  },
+  {
+    "moving_image_file": "AbdomenMRCT/imagesTr/AbdomenMRCT_0004_0000.nii.gz",
+    "fixed_image_file": "AbdomenMRCT/imagesTr/AbdomenMRCT_0004_0001.nii.gz",
+    "moving_label_file": "AbdomenMRCT/labelsTr/AbdomenMRCT_0004_0000.nii.gz",
+    "fixed_label_file": "AbdomenMRCT/labelsTr/AbdomenMRCT_0004_0001.nii.gz",
+    "moving_mask_file": "AbdomenMRCT/masksTr/AbdomenMRCT_0004_0000.nii.gz",
+    "fixed_mask_file": "AbdomenMRCT/masksTr/AbdomenMRCT_0004_0001.nii.gz",
+    "moving_landmark_file": "",
+    "fixed_landmark_file": "",
+    "moving_modality": "MRI",
+    "fixed_modality": "CT",
+    "dataset": "AbdomenMRCT_CT_MRI",
+    "case": "AbdomenMRCT_0004__CT_to_MRI_mixed",
+    "group": "abdomen_organs",
+    "seed": 922989501,
+    "initial_indices": [
+      9534,
+      9377
+    ],
+    "input_sha256": "2a9c22a895bcfa65c700d4c9b89e93aaf789400f7adba945d9ac5c13bcae6f6a",
+    "X_sha256": "c67cd6e07d76cccbaa87b6a5f96f05c8a63b7a48a9b9848047c8d73c7e5a2625",
+    "Y_sha256": "b7d188f85ba25c98d86fc4e03a313f9d106b14ed6fe678609031a026ad7cc8ce",
+    "center_Y_sha256": "d635a00ed2351f99d529328a1397e11f890928b447536d113172678a7f65e801",
+    "scale_sha256": "7706957ba508a4db9177c3fb2af1e2861558b7790154bdedff540890758b47af",
+    "n_points": [
+      10000,
+      10000
+    ],
+    "center_Y": [
+      -221.0753936767578,
+      -161.7615966796875,
+      225.96560668945312
+    ],
+    "scale": 182.80612182617188,
+    "prepared_input": "AbdomenMRCT_CT_MRI/AbdomenMRCT_0004__CT_to_MRI_mixed.npz"
+  },
+  {
+    "moving_image_file": "AbdomenMRCT/imagesTr/AbdomenMRCT_0005_0000.nii.gz",
+    "fixed_image_file": "AbdomenMRCT/imagesTr/AbdomenMRCT_0005_0001.nii.gz",
+    "moving_label_file": "AbdomenMRCT/labelsTr/AbdomenMRCT_0005_0000.nii.gz",
+    "fixed_label_file": "AbdomenMRCT/labelsTr/AbdomenMRCT_0005_0001.nii.gz",
+    "moving_mask_file": "AbdomenMRCT/masksTr/AbdomenMRCT_0005_0000.nii.gz",
+    "fixed_mask_file": "AbdomenMRCT/masksTr/AbdomenMRCT_0005_0001.nii.gz",
+    "moving_landmark_file": "",
+    "fixed_landmark_file": "",
+    "moving_modality": "MRI",
+    "fixed_modality": "CT",
+    "dataset": "AbdomenMRCT_CT_MRI",
+    "case": "AbdomenMRCT_0005__CT_to_MRI_mixed",
+    "group": "abdomen_organs",
+    "seed": 2042957952,
+    "initial_indices": [
+      9200,
+      2758
+    ],
+    "input_sha256": "fa983a8b51a1b0d4144c72cbb513e0938d67d9aeb436703b24f8389ae3d7cf5e",
+    "X_sha256": "ae1184d3bf61171b8371a3527f0fcb56a2d93fa2727ac8573a72a5dc9fdc7862",
+    "Y_sha256": "4e20d79dc6e22a64343a9428cc1349c18b3ab0e4df998797a2aef7c032460acf",
+    "center_Y_sha256": "94a6e1f164acb1f6be5bcc684e18b820259c0e12ac1a48f8cf891d9ff88d92a9",
+    "scale_sha256": "e9ab3c9b5dda9bd3abdb7c4f8806a0789ac84fa2c82113e2e98275cf6f429b6a",
+    "n_points": [
+      10000,
+      10000
+    ],
+    "center_Y": [
+      -200.3679962158203,
+      -149.46400451660156,
+      219.03179931640625
+    ],
+    "scale": 171.76600646972656,
+    "prepared_input": "AbdomenMRCT_CT_MRI/AbdomenMRCT_0005__CT_to_MRI_mixed.npz"
+  },
+  {
+    "moving_image_file": "AbdomenMRCT/imagesTr/AbdomenMRCT_0006_0000.nii.gz",
+    "fixed_image_file": "AbdomenMRCT/imagesTr/AbdomenMRCT_0006_0001.nii.gz",
+    "moving_label_file": "AbdomenMRCT/labelsTr/AbdomenMRCT_0006_0000.nii.gz",
+    "fixed_label_file": "AbdomenMRCT/labelsTr/AbdomenMRCT_0006_0001.nii.gz",
+    "moving_mask_file": "AbdomenMRCT/masksTr/AbdomenMRCT_0006_0000.nii.gz",
+    "fixed_mask_file": "AbdomenMRCT/masksTr/AbdomenMRCT_0006_0001.nii.gz",
+    "moving_landmark_file": "",
+    "fixed_landmark_file": "",
+    "moving_modality": "MRI",
+    "fixed_modality": "CT",
+    "dataset": "AbdomenMRCT_CT_MRI",
+    "case": "AbdomenMRCT_0006__CT_to_MRI_mixed",
+    "group": "abdomen_organs",
+    "seed": 1833846244,
+    "initial_indices": [
+      6810,
+      9060
+    ],
+    "input_sha256": "b0d38f6cd77bebc0b582a979e68f583051f22354a847ea50f307b35b463b41b3",
+    "X_sha256": "c25af39dbc67d3b869b5c36b9ed4bb73472b52551557a64679211daccbf9a259",
+    "Y_sha256": "c1f641568ad5523e811a84ccabfa2483e6d97c159e9adda42bbcf7ca9720c546",
+    "center_Y_sha256": "564226da98ebe651392a3854cf21dc8482a67014f7e4b8303e5a304a48bf4492",
+    "scale_sha256": "1b4856ad077841d89f9edc0423054c6167cdf1ad79aed92988f5b353074777d7",
+    "n_points": [
+      10000,
+      10000
+    ],
+    "center_Y": [
+      -225.3867950439453,
+      -143.17820739746094,
+      220.18899536132812
+    ],
+    "scale": 179.375732421875,
+    "prepared_input": "AbdomenMRCT_CT_MRI/AbdomenMRCT_0006__CT_to_MRI_mixed.npz"
+  },
+  {
+    "moving_image_file": "AbdomenMRCT/imagesTr/AbdomenMRCT_0007_0000.nii.gz",
+    "fixed_image_file": "AbdomenMRCT/imagesTr/AbdomenMRCT_0007_0001.nii.gz",
+    "moving_label_file": "AbdomenMRCT/labelsTr/AbdomenMRCT_0007_0000.nii.gz",
+    "fixed_label_file": "AbdomenMRCT/labelsTr/AbdomenMRCT_0007_0001.nii.gz",
+    "moving_mask_file": "AbdomenMRCT/masksTr/AbdomenMRCT_0007_0000.nii.gz",
+    "fixed_mask_file": "AbdomenMRCT/masksTr/AbdomenMRCT_0007_0001.nii.gz",
+    "moving_landmark_file": "",
+    "fixed_landmark_file": "",
+    "moving_modality": "MRI",
+    "fixed_modality": "CT",
+    "dataset": "AbdomenMRCT_CT_MRI",
+    "case": "AbdomenMRCT_0007__CT_to_MRI_mixed",
+    "group": "abdomen_organs",
+    "seed": 825839073,
+    "initial_indices": [
+      187,
+      4355
+    ],
+    "input_sha256": "e1197cc5107006a92abe0c6a582afcbba7552dc0e644419c36c6083513e7014d",
+    "X_sha256": "e8767626029c53f96e39105e5b12598322c770e8e8d689319d889a0d3e4cd071",
+    "Y_sha256": "74618adfcc208142f06628d22cee7cc3836768cddccb025af221a0fc01b88cb1",
+    "center_Y_sha256": "1e81597c6574083939bc5fc82cc6b7ceb0113dd5ffbbc3c9418cc19d88821029",
+    "scale_sha256": "5a18430243828d5ec76a97e1c9ad21dc1313b1893cb15affe4ac30922719fe93",
+    "n_points": [
+      10000,
+      10000
+    ],
+    "center_Y": [
+      -209.13319396972656,
+      -150.2384033203125,
+      275.8205871582031
+    ],
+    "scale": 167.9200897216797,
+    "prepared_input": "AbdomenMRCT_CT_MRI/AbdomenMRCT_0007__CT_to_MRI_mixed.npz"
+  },
+  {
+    "moving_image_file": "AbdomenMRCT/imagesTr/AbdomenMRCT_0008_0000.nii.gz",
+    "fixed_image_file": "AbdomenMRCT/imagesTr/AbdomenMRCT_0008_0001.nii.gz",
+    "moving_label_file": "AbdomenMRCT/labelsTr/AbdomenMRCT_0008_0000.nii.gz",
+    "fixed_label_file": "AbdomenMRCT/labelsTr/AbdomenMRCT_0008_0001.nii.gz",
+    "moving_mask_file": "AbdomenMRCT/masksTr/AbdomenMRCT_0008_0000.nii.gz",
+    "fixed_mask_file": "AbdomenMRCT/masksTr/AbdomenMRCT_0008_0001.nii.gz",
+    "moving_landmark_file": "",
+    "fixed_landmark_file": "",
+    "moving_modality": "MRI",
+    "fixed_modality": "CT",
+    "dataset": "AbdomenMRCT_CT_MRI",
+    "case": "AbdomenMRCT_0008__CT_to_MRI_mixed",
+    "group": "abdomen_organs",
+    "seed": 1097366091,
+    "initial_indices": [
+      6536,
+      4289
+    ],
+    "input_sha256": "806d7999222d7cab64593c86f11f24284509cf9493bb3df0e2dc42d0eea2dc68",
+    "X_sha256": "8d73d0b6ff784237057a9050ad8a74ac4ed3728cd265a2b9b8cd64c249257ce6",
+    "Y_sha256": "c57d82be7c0b8b305daa57fc43f9eab0337fc1968839c66ffb62c886e300c406",
+    "center_Y_sha256": "38d9819da270341760315d195106322a011fa470a6a7058367a0fe9dce58a61c",
+    "scale_sha256": "abe979e6b52a0014ea49739bd86123a48c6a11c9c77cef7a318d21ef5341c4da",
+    "n_points": [
+      10000,
+      10000
+    ],
+    "center_Y": [
+      -229.90440368652344,
+      -145.6938018798828,
+      240.06300354003906
+    ],
+    "scale": 184.80233764648438,
+    "prepared_input": "AbdomenMRCT_CT_MRI/AbdomenMRCT_0008__CT_to_MRI_mixed.npz"
+  },
+  {
+    "moving_image_file": "LungCT/images/LungCT_0001_0000.nii.gz",
+    "fixed_image_file": "LungCT/images/LungCT_0001_0001.nii.gz",
+    "moving_label_file": "",
+    "fixed_label_file": "",
+    "moving_mask_file": "LungCT/masksTr/LungCT_0001_0000.nii.gz",
+    "fixed_mask_file": "LungCT/masksTr/LungCT_0001_0001.nii.gz",
+    "moving_landmark_file": "LungCT/landmarksTr/LungCT_0001_0000.csv",
+    "fixed_landmark_file": "LungCT/landmarksTr/LungCT_0001_0001.csv",
+    "moving_modality": "CT",
+    "fixed_modality": "CT",
+    "dataset": "LungCT_CT_CT",
+    "case": "LungCT_0001__CT_to_CT_mixed",
+    "group": "lung_auto_mask",
+    "seed": 935623650,
+    "initial_indices": [
+      3278,
+      4426
+    ],
+    "input_sha256": "a682695ce8730bfa244ba1efbc40ba8eee8c060dcd7b18b8c09e1aa911984aa2",
+    "X_sha256": "7219a1c2e87256ed308cbec5d944bbd13a37db18bcd112ad10658e52563f0681",
+    "Y_sha256": "243657ceebb38111495e9b77fe786eea308082798d1fbd250c9db7a86315fe43",
+    "center_Y_sha256": "a86193a317a86196ae092e191787499e879257c2c558bd0af4e7dec547c168e0",
+    "scale_sha256": "4bc7b5d607abc3cdbe1d11b76a9e0cfd8709cf8302e03d0a1d716855a30baa1f",
+    "n_points": [
+      10000,
+      10000
+    ],
+    "center_Y": [
+      -164.06179809570312,
+      -112.78262329101562,
+      157.1123809814453
+    ],
+    "scale": 188.7810516357422,
+    "prepared_input": "LungCT_CT_CT/LungCT_0001__CT_to_CT_mixed.npz"
+  },
+  {
+    "moving_image_file": "LungCT/images/LungCT_0002_0000.nii.gz",
+    "fixed_image_file": "LungCT/images/LungCT_0002_0001.nii.gz",
+    "moving_label_file": "",
+    "fixed_label_file": "",
+    "moving_mask_file": "LungCT/masksTr/LungCT_0002_0000.nii.gz",
+    "fixed_mask_file": "LungCT/masksTr/LungCT_0002_0001.nii.gz",
+    "moving_landmark_file": "LungCT/landmarksTr/LungCT_0002_0000.csv",
+    "fixed_landmark_file": "LungCT/landmarksTr/LungCT_0002_0001.csv",
+    "moving_modality": "CT",
+    "fixed_modality": "CT",
+    "dataset": "LungCT_CT_CT",
+    "case": "LungCT_0002__CT_to_CT_mixed",
+    "group": "lung_auto_mask",
+    "seed": 433152922,
+    "initial_indices": [
+      7388,
+      8500
+    ],
+    "input_sha256": "952312f6701ddf3b578ce5c4201fd39f07785f53be0d6c112609422fad7502d5",
+    "X_sha256": "49b0ff1f7690ebf8e5e34050d883456d018803ad50c93cb86f1f4757e6bdb9ac",
+    "Y_sha256": "babe0746d2d9aac52b96483b5f0257c6d8ffc64f5cc10ea9bee4406bfdf59ed4",
+    "center_Y_sha256": "4d0d951afe237becfc27073859ea56ba66ebc0bade827bd45f87d73108167394",
+    "scale_sha256": "ec968ededf7d893d506aea7113b205d11d7113d1b50160ab2f73b55625534030",
+    "n_points": [
+      10000,
+      10000
+    ],
+    "center_Y": [
+      -172.82615661621094,
+      -114.4991226196289,
+      164.09347534179688
+    ],
+    "scale": 195.43954467773438,
+    "prepared_input": "LungCT_CT_CT/LungCT_0002__CT_to_CT_mixed.npz"
+  },
+  {
+    "moving_image_file": "LungCT/images/LungCT_0003_0000.nii.gz",
+    "fixed_image_file": "LungCT/images/LungCT_0003_0001.nii.gz",
+    "moving_label_file": "",
+    "fixed_label_file": "",
+    "moving_mask_file": "LungCT/masksTr/LungCT_0003_0000.nii.gz",
+    "fixed_mask_file": "LungCT/masksTr/LungCT_0003_0001.nii.gz",
+    "moving_landmark_file": "LungCT/landmarksTr/LungCT_0003_0000.csv",
+    "fixed_landmark_file": "LungCT/landmarksTr/LungCT_0003_0001.csv",
+    "moving_modality": "CT",
+    "fixed_modality": "CT",
+    "dataset": "LungCT_CT_CT",
+    "case": "LungCT_0003__CT_to_CT_mixed",
+    "group": "lung_auto_mask",
+    "seed": 639980032,
+    "initial_indices": [
+      3858,
+      1334
+    ],
+    "input_sha256": "691861a08a68740a709a8b62e450b3b28d0ae58a81cb301e99401840751d0d24",
+    "X_sha256": "fd5ae687b2b3076962a0b5e80edfbaf310bcf41ee038dc4c0caf2d859520053a",
+    "Y_sha256": "8d192e207c195c29329ad60c6675613055e1f970aea17b6a35f9040022f1057a",
+    "center_Y_sha256": "1f6f6a9488064814acbb1c0ea45456c6ecb39b3483f64e88bffd517f4d494e94",
+    "scale_sha256": "228d251b16468b06b1b975110ba132443a3224e768b1af8f33ceed154111a775",
+    "n_points": [
+      10000,
+      10000
+    ],
+    "center_Y": [
+      -166.79214477539062,
+      -100.69712829589844,
+      158.33387756347656
+    ],
+    "scale": 189.77247619628906,
+    "prepared_input": "LungCT_CT_CT/LungCT_0003__CT_to_CT_mixed.npz"
+  },
+  {
+    "moving_image_file": "LungCT/images/LungCT_0004_0000.nii.gz",
+    "fixed_image_file": "LungCT/images/LungCT_0004_0001.nii.gz",
+    "moving_label_file": "",
+    "fixed_label_file": "",
+    "moving_mask_file": "LungCT/masksTr/LungCT_0004_0000.nii.gz",
+    "fixed_mask_file": "LungCT/masksTr/LungCT_0004_0001.nii.gz",
+    "moving_landmark_file": "",
+    "fixed_landmark_file": "",
+    "moving_modality": "CT",
+    "fixed_modality": "CT",
+    "dataset": "LungCT_CT_CT",
+    "case": "LungCT_0004__CT_to_CT_mixed",
+    "group": "lung_auto_mask",
+    "seed": 1181745882,
+    "initial_indices": [
+      6740,
+      9352
+    ],
+    "input_sha256": "9f462accfe981768a882fac4942a82faff0854b27a5be2511beb3321dba06e34",
+    "X_sha256": "81bb6608385a86d88b61f4d1b2cd8b2536c4e760e8e962a79f479d3dc7ec98a2",
+    "Y_sha256": "0421cdbba62e8b43bd6e9e0142d52a93094c6e4289d494e796331245a54c0604",
+    "center_Y_sha256": "9501e9462e6c70a78ad422258456914811588f783b1f75a0419ed883f6efa64f",
+    "scale_sha256": "4b28f61e41e697bdc6739cf8714792a65f1c98d6267524d77d7b2e0517c160bf",
+    "n_points": [
+      10000,
+      10000
+    ],
+    "center_Y": [
+      -163.3155975341797,
+      -117.47899627685547,
+      149.88119506835938
+    ],
+    "scale": 165.3191680908203,
+    "prepared_input": "LungCT_CT_CT/LungCT_0004__CT_to_CT_mixed.npz"
+  },
+  {
+    "moving_image_file": "LungCT/images/LungCT_0005_0000.nii.gz",
+    "fixed_image_file": "LungCT/images/LungCT_0005_0001.nii.gz",
+    "moving_label_file": "",
+    "fixed_label_file": "",
+    "moving_mask_file": "LungCT/masksTr/LungCT_0005_0000.nii.gz",
+    "fixed_mask_file": "LungCT/masksTr/LungCT_0005_0001.nii.gz",
+    "moving_landmark_file": "",
+    "fixed_landmark_file": "",
+    "moving_modality": "CT",
+    "fixed_modality": "CT",
+    "dataset": "LungCT_CT_CT",
+    "case": "LungCT_0005__CT_to_CT_mixed",
+    "group": "lung_auto_mask",
+    "seed": 1186922954,
+    "initial_indices": [
+      6293,
+      7702
+    ],
+    "input_sha256": "6808fdc2711569eb43306362fbf1c288c6ed73ca9d5618298b9e38220c63cdd7",
+    "X_sha256": "7513cdf55131806db5fe019227eb7098ea3eae0b7714ce6aceee593ac70e1b7f",
+    "Y_sha256": "4bacbea82e5cc5a187ac3ff94d3201034abcfbd1cd4a2c8b508ca9cf43f6109e",
+    "center_Y_sha256": "06ff7e509caee472e60c67b3a40100e9f14720b9e09ef62ef6547e6e7f7f9748",
+    "scale_sha256": "f523b2e782d28da9c41f458253cf8fa6a376be858d4c96c404c4e5329000e360",
+    "n_points": [
+      10000,
+      10000
+    ],
+    "center_Y": [
+      -166.99462890625,
+      -111.91387176513672,
+      182.65711975097656
+    ],
+    "scale": 192.78277587890625,
+    "prepared_input": "LungCT_CT_CT/LungCT_0005__CT_to_CT_mixed.npz"
+  },
+  {
+    "moving_image_file": "LungCT/images/LungCT_0006_0000.nii.gz",
+    "fixed_image_file": "LungCT/images/LungCT_0006_0001.nii.gz",
+    "moving_label_file": "",
+    "fixed_label_file": "",
+    "moving_mask_file": "LungCT/masksTr/LungCT_0006_0000.nii.gz",
+    "fixed_mask_file": "LungCT/masksTr/LungCT_0006_0001.nii.gz",
+    "moving_landmark_file": "",
+    "fixed_landmark_file": "",
+    "moving_modality": "CT",
+    "fixed_modality": "CT",
+    "dataset": "LungCT_CT_CT",
+    "case": "LungCT_0006__CT_to_CT_mixed",
+    "group": "lung_auto_mask",
+    "seed": 1550707219,
+    "initial_indices": [
+      6108,
+      4989
+    ],
+    "input_sha256": "5fc51e585fad0059452dc7dbdf8763501d016f3f5c2668b037b48faed6b7302e",
+    "X_sha256": "542a712d8b8fbcd618b028d50980925fd2e49b35e6cec446127771cf07dd164f",
+    "Y_sha256": "cd57c77ee8c728bc992ae658f2469396496f846f2b60fc435780cfb16d6407f1",
+    "center_Y_sha256": "f036c1a9773280604b0efb03ff32039a8fc73e4d4f452be21ab4c259cc252c51",
+    "scale_sha256": "c386642141578b1489deb488cd88220f1e0ef19f685d625b914045d2e8ab0fdb",
+    "n_points": [
+      10000,
+      10000
+    ],
+    "center_Y": [
+      -169.1653289794922,
+      -113.88224792480469,
+      162.5347442626953
+    ],
+    "scale": 176.9995574951172,
+    "prepared_input": "LungCT_CT_CT/LungCT_0006__CT_to_CT_mixed.npz"
+  },
+  {
+    "moving_image_file": "LungCT/images/LungCT_0007_0000.nii.gz",
+    "fixed_image_file": "LungCT/images/LungCT_0007_0001.nii.gz",
+    "moving_label_file": "",
+    "fixed_label_file": "",
+    "moving_mask_file": "LungCT/masksTr/LungCT_0007_0000.nii.gz",
+    "fixed_mask_file": "LungCT/masksTr/LungCT_0007_0001.nii.gz",
+    "moving_landmark_file": "",
+    "fixed_landmark_file": "",
+    "moving_modality": "CT",
+    "fixed_modality": "CT",
+    "dataset": "LungCT_CT_CT",
+    "case": "LungCT_0007__CT_to_CT_mixed",
+    "group": "lung_auto_mask",
+    "seed": 500541353,
+    "initial_indices": [
+      3831,
+      8167
+    ],
+    "input_sha256": "eac4e85e208054f39d7eee5bf7a4bfa5afb22390156685c95f74eabf89fe2cee",
+    "X_sha256": "99c2737b069f102bceb70c063142762c1c4c7e21c6bf6c77ace8af2d9f746dc9",
+    "Y_sha256": "f8d6324f3e33d7827616af9b11dea060ef9445d1c6e92a54d0d64b48d93054bb",
+    "center_Y_sha256": "1eeb4423f33e3c9203b38d5455e3f3df386400ccec91fae6e12c091826931093",
+    "scale_sha256": "19fb038a87161b16b6571b1d8fedae3a63322af58e56d55e9eab6bcabaff01b4",
+    "n_points": [
+      10000,
+      10000
+    ],
+    "center_Y": [
+      -167.85964965820312,
+      -117.36512756347656,
+      169.2939453125
+    ],
+    "scale": 173.89794921875,
+    "prepared_input": "LungCT_CT_CT/LungCT_0007__CT_to_CT_mixed.npz"
+  },
+  {
+    "moving_image_file": "LungCT/images/LungCT_0008_0000.nii.gz",
+    "fixed_image_file": "LungCT/images/LungCT_0008_0001.nii.gz",
+    "moving_label_file": "",
+    "fixed_label_file": "",
+    "moving_mask_file": "LungCT/masksTr/LungCT_0008_0000.nii.gz",
+    "fixed_mask_file": "LungCT/masksTr/LungCT_0008_0001.nii.gz",
+    "moving_landmark_file": "",
+    "fixed_landmark_file": "",
+    "moving_modality": "CT",
+    "fixed_modality": "CT",
+    "dataset": "LungCT_CT_CT",
+    "case": "LungCT_0008__CT_to_CT_mixed",
+    "group": "lung_auto_mask",
+    "seed": 340448910,
+    "initial_indices": [
+      7005,
+      7948
+    ],
+    "input_sha256": "abefe5a56888fd0be8b0102414677e76afbf3d119be2b839ae17df76efe06084",
+    "X_sha256": "bf8cd912a2ef66be6b8470ae4713bb0ffe70901dd49cf58dd6ddfb04ea16105f",
+    "Y_sha256": "9394dee28a51aed27baea8b2269729f2cb84cb5ed962362afcf8480d63830e42",
+    "center_Y_sha256": "9efbb70b7454682a83e28feca00e50a6b76da21ff1942f4f5b34aff5a53c2246",
+    "scale_sha256": "0b71005ccb8797dafc6ecf66345262b08f6c43245db4663e73a527ade2f730c6",
+    "n_points": [
+      10000,
+      10000
+    ],
+    "center_Y": [
+      -161.16012573242188,
+      -114.36187744140625,
+      165.3011474609375
+    ],
+    "scale": 175.7460174560547,
+    "prepared_input": "LungCT_CT_CT/LungCT_0008__CT_to_CT_mixed.npz"
+  },
+  {
+    "moving_image_file": "LungCT/images/LungCT_0009_0000.nii.gz",
+    "fixed_image_file": "LungCT/images/LungCT_0009_0001.nii.gz",
+    "moving_label_file": "",
+    "fixed_label_file": "",
+    "moving_mask_file": "LungCT/masksTr/LungCT_0009_0000.nii.gz",
+    "fixed_mask_file": "LungCT/masksTr/LungCT_0009_0001.nii.gz",
+    "moving_landmark_file": "",
+    "fixed_landmark_file": "",
+    "moving_modality": "CT",
+    "fixed_modality": "CT",
+    "dataset": "LungCT_CT_CT",
+    "case": "LungCT_0009__CT_to_CT_mixed",
+    "group": "lung_auto_mask",
+    "seed": 1595982005,
+    "initial_indices": [
+      3304,
+      8844
+    ],
+    "input_sha256": "05b16f7a3fd0b3f599fc35a61ef68bdd57ac7a8573bb03fb5da771674e0b3a9c",
+    "X_sha256": "a4d5a7c4c938115ae23c4e8a7bcc2813c1e54f317425b744149bdaec7c55180c",
+    "Y_sha256": "f9bd6d83182d8e8e21e83ebd7e88f5a91b66b29594a9247ad41941df4fcfb3b0",
+    "center_Y_sha256": "65602ea3dd090993948895d5f928711e901ae22a22d1a5c5894d75a72990692f",
+    "scale_sha256": "e253baded6684378d27cbb9794f6661e352c4b1f704d69dc6ff44c5f5bd929a4",
+    "n_points": [
+      10000,
+      10000
+    ],
+    "center_Y": [
+      -166.90835571289062,
+      -114.48212432861328,
+      154.97596740722656
+    ],
+    "scale": 208.39791870117188,
+    "prepared_input": "LungCT_CT_CT/LungCT_0009__CT_to_CT_mixed.npz"
+  },
+  {
+    "moving_image_file": "LungCT/images/LungCT_0010_0000.nii.gz",
+    "fixed_image_file": "LungCT/images/LungCT_0010_0001.nii.gz",
+    "moving_label_file": "",
+    "fixed_label_file": "",
+    "moving_mask_file": "LungCT/masksTr/LungCT_0010_0000.nii.gz",
+    "fixed_mask_file": "LungCT/masksTr/LungCT_0010_0001.nii.gz",
+    "moving_landmark_file": "",
+    "fixed_landmark_file": "",
+    "moving_modality": "CT",
+    "fixed_modality": "CT",
+    "dataset": "LungCT_CT_CT",
+    "case": "LungCT_0010__CT_to_CT_mixed",
+    "group": "lung_auto_mask",
+    "seed": 1207257265,
+    "initial_indices": [
+      7778,
+      2156
+    ],
+    "input_sha256": "2ccf25029da98e0d53ad2af8bd94beffe5d63803079ef5da54e00d76dcc5f668",
+    "X_sha256": "14be0d89b72973bb003d6f24ec520119ce307c2956a556794bd290b137ddce05",
+    "Y_sha256": "59439c3b9596ddd7b26cc53d845d045e0e49bfdb1c111d08348eec39e8a14e14",
+    "center_Y_sha256": "c4469bcfe982ae7e44358e1df3c33559d23a2de62ab949855f3350af1bc61ebc",
+    "scale_sha256": "70c1fff02a85bab4d4a877eab1d3280d37e4316cb92012f3e8fb3092603a3805",
+    "n_points": [
+      10000,
+      10000
+    ],
+    "center_Y": [
+      -174.15335083007812,
+      -109.6781234741211,
+      165.83438110351562
+    ],
+    "scale": 155.86334228515625,
+    "prepared_input": "LungCT_CT_CT/LungCT_0010__CT_to_CT_mixed.npz"
+  },
+  {
+    "moving_image_file": "LungCT/images/LungCT_0011_0000.nii.gz",
+    "fixed_image_file": "LungCT/images/LungCT_0011_0001.nii.gz",
+    "moving_label_file": "",
+    "fixed_label_file": "",
+    "moving_mask_file": "LungCT/masksTr/LungCT_0011_0000.nii.gz",
+    "fixed_mask_file": "LungCT/masksTr/LungCT_0011_0001.nii.gz",
+    "moving_landmark_file": "",
+    "fixed_landmark_file": "",
+    "moving_modality": "CT",
+    "fixed_modality": "CT",
+    "dataset": "LungCT_CT_CT",
+    "case": "LungCT_0011__CT_to_CT_mixed",
+    "group": "lung_auto_mask",
+    "seed": 1128769368,
+    "initial_indices": [
+      5743,
+      7715
+    ],
+    "input_sha256": "dcdd2e21a38153df2ffa753b762420e8a63441d1e5377d2f7b1e05785a0a3a34",
+    "X_sha256": "4efaabf845bd91209ecd88641fd87d2790d290b87a85c4a85c64f6076bef5131",
+    "Y_sha256": "7bacb0689ca037ac9e34fa0d9a5d44ce412a0d42608b7abb07ec51667bf8a981",
+    "center_Y_sha256": "08188f90b04c9e7155b18c4a62902f4caf7e1d94503ab7a659378f0a5614b3dd",
+    "scale_sha256": "3a825eaf836cb13ab0efaaa2050e4a3b66f78225c7040e11b9a6cc7bd9736e2c",
+    "n_points": [
+      10000,
+      10000
+    ],
+    "center_Y": [
+      -167.61412048339844,
+      -112.67350006103516,
+      162.26226806640625
+    ],
+    "scale": 184.7416229248047,
+    "prepared_input": "LungCT_CT_CT/LungCT_0011__CT_to_CT_mixed.npz"
+  },
+  {
+    "moving_image_file": "LungCT/images/LungCT_0012_0000.nii.gz",
+    "fixed_image_file": "LungCT/images/LungCT_0012_0001.nii.gz",
+    "moving_label_file": "",
+    "fixed_label_file": "",
+    "moving_mask_file": "LungCT/masksTr/LungCT_0012_0000.nii.gz",
+    "fixed_mask_file": "LungCT/masksTr/LungCT_0012_0001.nii.gz",
+    "moving_landmark_file": "",
+    "fixed_landmark_file": "",
+    "moving_modality": "CT",
+    "fixed_modality": "CT",
+    "dataset": "LungCT_CT_CT",
+    "case": "LungCT_0012__CT_to_CT_mixed",
+    "group": "lung_auto_mask",
+    "seed": 1835332938,
+    "initial_indices": [
+      2022,
+      2954
+    ],
+    "input_sha256": "161b5229ebab9e01cae5ffd73a9d492152629bc146bf35373fa88e4941b3da3c",
+    "X_sha256": "aafa82f809f348e98e4be654b6db9a5c6c14a47024ad7f9181aae395e4b90811",
+    "Y_sha256": "081f789ac79845211ca92fe07c00b0255267c1a73282dd22bf48f1ab93f0d8e3",
+    "center_Y_sha256": "e30e85fc5414a9864d0b1d94c0ca119d1637a3112f00279ea5ef2cd01f87dd4b",
+    "scale_sha256": "e48614d9a82a5c4369545f5f9f8b588df2e4a906cc5c9388d5fe05349c51c25b",
+    "n_points": [
+      10000,
+      10000
+    ],
+    "center_Y": [
+      -171.2509765625,
+      -104.85912322998047,
+      169.41802978515625
+    ],
+    "scale": 185.62806701660156,
+    "prepared_input": "LungCT_CT_CT/LungCT_0012__CT_to_CT_mixed.npz"
+  },
+  {
+    "moving_image_file": "LungCT/images/LungCT_0013_0000.nii.gz",
+    "fixed_image_file": "LungCT/images/LungCT_0013_0001.nii.gz",
+    "moving_label_file": "",
+    "fixed_label_file": "",
+    "moving_mask_file": "LungCT/masksTr/LungCT_0013_0000.nii.gz",
+    "fixed_mask_file": "LungCT/masksTr/LungCT_0013_0001.nii.gz",
+    "moving_landmark_file": "",
+    "fixed_landmark_file": "",
+    "moving_modality": "CT",
+    "fixed_modality": "CT",
+    "dataset": "LungCT_CT_CT",
+    "case": "LungCT_0013__CT_to_CT_mixed",
+    "group": "lung_auto_mask",
+    "seed": 1147674522,
+    "initial_indices": [
+      1631,
+      702
+    ],
+    "input_sha256": "fcd140853045c17371e6a1875dd7d0cc7ce0562f1641385729de744e95c6053c",
+    "X_sha256": "ad6fb4ab3f13098203d597043bb1e43b707d83e6081ab5e213486faf6814cc27",
+    "Y_sha256": "7f58aacb1b11b05ce110091051709f5734afa2e7bc643fbcfd75c241b2565948",
+    "center_Y_sha256": "ad460b3d2278ceaead6c07388075dd3454aa96a7c8e2df8facfb331aae872cc7",
+    "scale_sha256": "c561344f995417a55c19265315a4e1b02eeed23514feb6ede350d5c13f66e73f",
+    "n_points": [
+      10000,
+      10000
+    ],
+    "center_Y": [
+      -167.61849975585938,
+      -112.67675018310547,
+      164.5355224609375
+    ],
+    "scale": 167.90724182128906,
+    "prepared_input": "LungCT_CT_CT/LungCT_0013__CT_to_CT_mixed.npz"
+  },
+  {
+    "moving_image_file": "LungCT/images/LungCT_0014_0000.nii.gz",
+    "fixed_image_file": "LungCT/images/LungCT_0014_0001.nii.gz",
+    "moving_label_file": "",
+    "fixed_label_file": "",
+    "moving_mask_file": "LungCT/masksTr/LungCT_0014_0000.nii.gz",
+    "fixed_mask_file": "LungCT/masksTr/LungCT_0014_0001.nii.gz",
+    "moving_landmark_file": "",
+    "fixed_landmark_file": "",
+    "moving_modality": "CT",
+    "fixed_modality": "CT",
+    "dataset": "LungCT_CT_CT",
+    "case": "LungCT_0014__CT_to_CT_mixed",
+    "group": "lung_auto_mask",
+    "seed": 1813271825,
+    "initial_indices": [
+      5006,
+      5908
+    ],
+    "input_sha256": "dc20078ab9bafa447f277e99f26b68000c85fcbdee1458f6c8ed94752088d317",
+    "X_sha256": "7f57ce9d4217dcf9a94aeb007820ad41953e1bfa3293d57c61cabb8400bd02b8",
+    "Y_sha256": "45e2b6cd099ce4f3e9af7a6b01cfb07d116ab6be82a81220e5f59377e844d3cc",
+    "center_Y_sha256": "9b041082dfe2adb12c70a72be40b12c31287250bd1f85b203c3e4f86636c555e",
+    "scale_sha256": "57accac1d417df12058565b7e6f4c92e5d4231f7ef676e78e4e5e6286dd8f606",
+    "n_points": [
+      10000,
+      10000
+    ],
+    "center_Y": [
+      -164.84124755859375,
+      -109.01412200927734,
+      164.42825317382812
+    ],
+    "scale": 165.8428497314453,
+    "prepared_input": "LungCT_CT_CT/LungCT_0014__CT_to_CT_mixed.npz"
+  },
+  {
+    "moving_image_file": "LungCT/images/LungCT_0015_0000.nii.gz",
+    "fixed_image_file": "LungCT/images/LungCT_0015_0001.nii.gz",
+    "moving_label_file": "",
+    "fixed_label_file": "",
+    "moving_mask_file": "LungCT/masksTr/LungCT_0015_0000.nii.gz",
+    "fixed_mask_file": "LungCT/masksTr/LungCT_0015_0001.nii.gz",
+    "moving_landmark_file": "",
+    "fixed_landmark_file": "",
+    "moving_modality": "CT",
+    "fixed_modality": "CT",
+    "dataset": "LungCT_CT_CT",
+    "case": "LungCT_0015__CT_to_CT_mixed",
+    "group": "lung_auto_mask",
+    "seed": 521570807,
+    "initial_indices": [
+      6063,
+      3731
+    ],
+    "input_sha256": "d9b86c2c226866c42e2b56366e85950c39dddd21a3e4221fd501073b0be8c43b",
+    "X_sha256": "35e5937ec63e5fdfa96bb6218ce86366a2faa281df1dfea0fa832a0583b4e187",
+    "Y_sha256": "96ec2dea11aa684a65f878dcad8332d17129915aa1fda51064ec586557591b24",
+    "center_Y_sha256": "795b4a60acf250186feaf0dd0019e77cac31ef69933f0b8e6494957f051b491e",
+    "scale_sha256": "b2afcfa3afd2428f523ec7745a5fa64e43fa9bc7185c2ec828edfa246c8967d2",
+    "n_points": [
+      10000,
+      10000
+    ],
+    "center_Y": [
+      -163.86614990234375,
+      -116.40687561035156,
+      175.69894409179688
+    ],
+    "scale": 181.42930603027344,
+    "prepared_input": "LungCT_CT_CT/LungCT_0015__CT_to_CT_mixed.npz"
+  },
+  {
+    "moving_image_file": "LungCT/images/LungCT_0016_0000.nii.gz",
+    "fixed_image_file": "LungCT/images/LungCT_0016_0001.nii.gz",
+    "moving_label_file": "",
+    "fixed_label_file": "",
+    "moving_mask_file": "LungCT/masksTr/LungCT_0016_0000.nii.gz",
+    "fixed_mask_file": "LungCT/masksTr/LungCT_0016_0001.nii.gz",
+    "moving_landmark_file": "",
+    "fixed_landmark_file": "",
+    "moving_modality": "CT",
+    "fixed_modality": "CT",
+    "dataset": "LungCT_CT_CT",
+    "case": "LungCT_0016__CT_to_CT_mixed",
+    "group": "lung_auto_mask",
+    "seed": 2011434437,
+    "initial_indices": [
+      5232,
+      7495
+    ],
+    "input_sha256": "dc479f3e156cc45b0d293e680b9517f75e3d8df9eccd5bd1afc2a157a57cb905",
+    "X_sha256": "6487a6ffe17d8c2dd0b29ce47910585f9acd29f0c77212711ed4d3523d226b33",
+    "Y_sha256": "f292199b3e14c2f590fae31d038fe88ca8c909c3a91cac212e6691258299eeb9",
+    "center_Y_sha256": "35c201883b8becf02b845e6f8ee75ee726dc080360e2e43949462edc37458a33",
+    "scale_sha256": "cfcffda4bae12bf8d57b020f1b02c3a2ee0dd49ba9876d06903e89574cc63270",
+    "n_points": [
+      10000,
+      10000
+    ],
+    "center_Y": [
+      -166.55450439453125,
+      -106.84937286376953,
+      176.4636993408203
+    ],
+    "scale": 140.40174865722656,
+    "prepared_input": "LungCT_CT_CT/LungCT_0016__CT_to_CT_mixed.npz"
+  },
+  {
+    "moving_image_file": "LungCT/images/LungCT_0017_0000.nii.gz",
+    "fixed_image_file": "LungCT/images/LungCT_0017_0001.nii.gz",
+    "moving_label_file": "",
+    "fixed_label_file": "",
+    "moving_mask_file": "LungCT/masksTr/LungCT_0017_0000.nii.gz",
+    "fixed_mask_file": "LungCT/masksTr/LungCT_0017_0001.nii.gz",
+    "moving_landmark_file": "",
+    "fixed_landmark_file": "",
+    "moving_modality": "CT",
+    "fixed_modality": "CT",
+    "dataset": "LungCT_CT_CT",
+    "case": "LungCT_0017__CT_to_CT_mixed",
+    "group": "lung_auto_mask",
+    "seed": 932704797,
+    "initial_indices": [
+      6775,
+      2955
+    ],
+    "input_sha256": "2ce9eb7cfa047cd8742727dd9dbeb169a9c393b65002b8013379e64ce95c0cc6",
+    "X_sha256": "fa0ef41230c91c47086969d8a744686381077b2d2a7e46ad7e1f819805fffc15",
+    "Y_sha256": "4d76ef9ada8565d45385eb4bc1847174053710a63e68f5dae3ece40802b00cd8",
+    "center_Y_sha256": "4145c8c04c5cf86af88af4791b8ec77cf99a7501968b0caec771aeb9509aa81d",
+    "scale_sha256": "7293d8ada042c0cc748e69b77aa5de88529fd9c4ffce4ec534f8a89f391c49b5",
+    "n_points": [
+      10000,
+      10000
+    ],
+    "center_Y": [
+      -167.1761016845703,
+      -104.96512603759766,
+      164.52975463867188
+    ],
+    "scale": 199.33145141601562,
+    "prepared_input": "LungCT_CT_CT/LungCT_0017__CT_to_CT_mixed.npz"
+  },
+  {
+    "moving_image_file": "LungCT/images/LungCT_0018_0000.nii.gz",
+    "fixed_image_file": "LungCT/images/LungCT_0018_0001.nii.gz",
+    "moving_label_file": "",
+    "fixed_label_file": "",
+    "moving_mask_file": "LungCT/masksTr/LungCT_0018_0000.nii.gz",
+    "fixed_mask_file": "LungCT/masksTr/LungCT_0018_0001.nii.gz",
+    "moving_landmark_file": "",
+    "fixed_landmark_file": "",
+    "moving_modality": "CT",
+    "fixed_modality": "CT",
+    "dataset": "LungCT_CT_CT",
+    "case": "LungCT_0018__CT_to_CT_mixed",
+    "group": "lung_auto_mask",
+    "seed": 631789869,
+    "initial_indices": [
+      761,
+      8012
+    ],
+    "input_sha256": "9c438d5ee79d5686fccc2746bd68a75a95177710e50ec70f8b84538874c680fa",
+    "X_sha256": "2a521d036dc796ca041b02fdb896e6e4c5767ab158b540569dcda280655715d9",
+    "Y_sha256": "34fc3f0b63f3ae7a8e4614c591e2e42949075a42d4c1491fda35de52e45eddab",
+    "center_Y_sha256": "00b0e401ee3fe3ac83601522ccb22228e060a6e9bb478e2fb0d82b5c60821c6a",
+    "scale_sha256": "56d194bfc91b7f53bd63bcbf4265041b3b2c90e853186cbc32e81db6fbbdfe02",
+    "n_points": [
+      10000,
+      10000
+    ],
+    "center_Y": [
+      -165.52532958984375,
+      -116.29524993896484,
+      166.898193359375
+    ],
+    "scale": 151.1488494873047,
+    "prepared_input": "LungCT_CT_CT/LungCT_0018__CT_to_CT_mixed.npz"
+  },
+  {
+    "moving_image_file": "LungCT/images/LungCT_0019_0000.nii.gz",
+    "fixed_image_file": "LungCT/images/LungCT_0019_0001.nii.gz",
+    "moving_label_file": "",
+    "fixed_label_file": "",
+    "moving_mask_file": "LungCT/masksTr/LungCT_0019_0000.nii.gz",
+    "fixed_mask_file": "LungCT/masksTr/LungCT_0019_0001.nii.gz",
+    "moving_landmark_file": "",
+    "fixed_landmark_file": "",
+    "moving_modality": "CT",
+    "fixed_modality": "CT",
+    "dataset": "LungCT_CT_CT",
+    "case": "LungCT_0019__CT_to_CT_mixed",
+    "group": "lung_auto_mask",
+    "seed": 521802321,
+    "initial_indices": [
+      8105,
+      5102
+    ],
+    "input_sha256": "78a7c542de4ea0103f990976c109719de208e39f6e38375ce8af7dd2f48fdd9c",
+    "X_sha256": "d0641463c6be2626d0d87b4239bb7f7081b8535690ea09bd226ad0f8303392b4",
+    "Y_sha256": "b9a9ebff877f1b205ecf4e64c636211caf5e3fff85cbc9b2c2d4f625f6e894b4",
+    "center_Y_sha256": "153c5bda6569a050cd2f4a33f22f1a55a9642367bdad3c022d5ab4ec1aee97d5",
+    "scale_sha256": "8994b731d7265a7ebaf6dbdcf297510f7ee48782d37e9ef3673c0affa1252c51",
+    "n_points": [
+      10000,
+      10000
+    ],
+    "center_Y": [
+      -166.58599853515625,
+      -112.94149780273438,
+      165.9678955078125
+    ],
+    "scale": 165.74444580078125,
+    "prepared_input": "LungCT_CT_CT/LungCT_0019__CT_to_CT_mixed.npz"
+  },
+  {
+    "moving_image_file": "LungCT/images/LungCT_0020_0000.nii.gz",
+    "fixed_image_file": "LungCT/images/LungCT_0020_0001.nii.gz",
+    "moving_label_file": "",
+    "fixed_label_file": "",
+    "moving_mask_file": "LungCT/masksTr/LungCT_0020_0000.nii.gz",
+    "fixed_mask_file": "LungCT/masksTr/LungCT_0020_0001.nii.gz",
+    "moving_landmark_file": "",
+    "fixed_landmark_file": "",
+    "moving_modality": "CT",
+    "fixed_modality": "CT",
+    "dataset": "LungCT_CT_CT",
+    "case": "LungCT_0020__CT_to_CT_mixed",
+    "group": "lung_auto_mask",
+    "seed": 1369876927,
+    "initial_indices": [
+      5743,
+      2295
+    ],
+    "input_sha256": "4d3e2b224ac25e84f1cddea628850fe97aea36f5819f6fc7c5ec7451470eb2f1",
+    "X_sha256": "eb7bf77b68158e6aa9391ad3a7fc7c4054d61a9a4bada987e27a508c0992aadb",
+    "Y_sha256": "8a76af67e45bcbc5761cfd850a31f4a1840b40e3fc037980243d75116d2aa311",
+    "center_Y_sha256": "db7a96569170bac86517d5640111922add5e1df441c5f2545d0f5e95338eb587",
+    "scale_sha256": "62cbb9dfe603e26a0a1eed12f477f097b66dde405f1e9cc79e01f9fc36ef497a",
+    "n_points": [
+      10000,
+      10000
+    ],
+    "center_Y": [
+      -161.89109802246094,
+      -103.19387817382812,
+      157.1905975341797
+    ],
+    "scale": 178.79168701171875,
+    "prepared_input": "LungCT_CT_CT/LungCT_0020__CT_to_CT_mixed.npz"
+  },
+  {
+    "moving_image_file": "LungCT/images/LungCT_0021_0000.nii.gz",
+    "fixed_image_file": "LungCT/images/LungCT_0021_0001.nii.gz",
+    "moving_label_file": "",
+    "fixed_label_file": "",
+    "moving_mask_file": "LungCT/masksTs/LungCT_0021_0000.nii.gz",
+    "fixed_mask_file": "LungCT/masksTs/LungCT_0021_0001.nii.gz",
+    "moving_landmark_file": "",
+    "fixed_landmark_file": "",
+    "moving_modality": "CT",
+    "fixed_modality": "CT",
+    "dataset": "LungCT_CT_CT",
+    "case": "LungCT_0021__CT_to_CT_mixed",
+    "group": "lung_auto_mask",
+    "seed": 1199105468,
+    "initial_indices": [
+      9751,
+      9354
+    ],
+    "input_sha256": "e22158c23a1ec10617f903c8810b5c14d9ef61a2300b20a973648dd3ee142ea7",
+    "X_sha256": "375792f262b99a4b261628c3393d1cb77b364228c0b6b7badb05d803ba99a0d6",
+    "Y_sha256": "e3f0a9015fa9596bdb8a3184be4c74e171098b1797a05d1feecb1bc820784081",
+    "center_Y_sha256": "e4a70f4176273e2e2814e716a6ecd23939c8b1e527fe6447be7982b4e7027d8c",
+    "scale_sha256": "2f64ced65e7d02a14844b794be8b3e6787c0542bba9a5a2b7454ccf990d8b246",
+    "n_points": [
+      10000,
+      10000
+    ],
+    "center_Y": [
+      -166.7510223388672,
+      -117.01612854003906,
+      168.1886444091797
+    ],
+    "scale": 157.99095153808594,
+    "prepared_input": "LungCT_CT_CT/LungCT_0021__CT_to_CT_mixed.npz"
+  },
+  {
+    "moving_image_file": "LungCT/images/LungCT_0022_0000.nii.gz",
+    "fixed_image_file": "LungCT/images/LungCT_0022_0001.nii.gz",
+    "moving_label_file": "",
+    "fixed_label_file": "",
+    "moving_mask_file": "LungCT/masksTs/LungCT_0022_0000.nii.gz",
+    "fixed_mask_file": "LungCT/masksTs/LungCT_0022_0001.nii.gz",
+    "moving_landmark_file": "",
+    "fixed_landmark_file": "",
+    "moving_modality": "CT",
+    "fixed_modality": "CT",
+    "dataset": "LungCT_CT_CT",
+    "case": "LungCT_0022__CT_to_CT_mixed",
+    "group": "lung_auto_mask",
+    "seed": 1930513003,
+    "initial_indices": [
+      5914,
+      7140
+    ],
+    "input_sha256": "5e189902a0b0f01cdac8cc3147b5f7b0f494c02326667909d27f95d287f57c96",
+    "X_sha256": "38c8380b116458b5d5faa3a101b270f9f0c62c51a181eaa306a8d8c5399d1ee5",
+    "Y_sha256": "4a086ff111c07ab155c2b39566739ea1764bc2fe2d6a25503d02432e90477ff1",
+    "center_Y_sha256": "62342487fcbd376157f42d54827eb55acb950da82506ad8f7aee14ad41690b8d",
+    "scale_sha256": "eecb4e1a48c9e7f6e38932617b480fc31a574be14790532ab7b36fc075ee0200",
+    "n_points": [
+      10000,
+      10000
+    ],
+    "center_Y": [
+      -171.5064697265625,
+      -115.95999908447266,
+      158.86203002929688
+    ],
+    "scale": 185.68692016601562,
+    "prepared_input": "LungCT_CT_CT/LungCT_0022__CT_to_CT_mixed.npz"
+  },
+  {
+    "moving_image_file": "LungCT/images/LungCT_0023_0000.nii.gz",
+    "fixed_image_file": "LungCT/images/LungCT_0023_0001.nii.gz",
+    "moving_label_file": "",
+    "fixed_label_file": "",
+    "moving_mask_file": "LungCT/masksTs/LungCT_0023_0000.nii.gz",
+    "fixed_mask_file": "LungCT/masksTs/LungCT_0023_0001.nii.gz",
+    "moving_landmark_file": "",
+    "fixed_landmark_file": "",
+    "moving_modality": "CT",
+    "fixed_modality": "CT",
+    "dataset": "LungCT_CT_CT",
+    "case": "LungCT_0023__CT_to_CT_mixed",
+    "group": "lung_auto_mask",
+    "seed": 481866406,
+    "initial_indices": [
+      7348,
+      4721
+    ],
+    "input_sha256": "a1ec3e7aed8cd0832a2ca44a75f8e46a992f8dd68574aa53f0f08d2a5bae5bba",
+    "X_sha256": "33807bb44fc3b8168870b941d7c829fae28bed55ad9ccd3adeb122cc93a2e60a",
+    "Y_sha256": "ce1a28dbf369a8a091eaf1b502c0874d7a72561f0f45a43e2f14e6a3becfbf31",
+    "center_Y_sha256": "627183b55be6c6d8238b3eae7c4efb512ac2e35ac4ee9ef7311c73bd247aa465",
+    "scale_sha256": "d811b072b854838a1b89bde08ecf1eb13424cbefab5c4868fca5cbe305d898ad",
+    "n_points": [
+      10000,
+      10000
+    ],
+    "center_Y": [
+      -169.86148071289062,
+      -114.3291244506836,
+      155.62661743164062
+    ],
+    "scale": 178.35450744628906,
+    "prepared_input": "LungCT_CT_CT/LungCT_0023__CT_to_CT_mixed.npz"
+  },
+  {
+    "moving_image_file": "LungCT/images/LungCT_0024_0000.nii.gz",
+    "fixed_image_file": "LungCT/images/LungCT_0024_0001.nii.gz",
+    "moving_label_file": "",
+    "fixed_label_file": "",
+    "moving_mask_file": "LungCT/masksTs/LungCT_0024_0000.nii.gz",
+    "fixed_mask_file": "LungCT/masksTs/LungCT_0024_0001.nii.gz",
+    "moving_landmark_file": "",
+    "fixed_landmark_file": "",
+    "moving_modality": "CT",
+    "fixed_modality": "CT",
+    "dataset": "LungCT_CT_CT",
+    "case": "LungCT_0024__CT_to_CT_mixed",
+    "group": "lung_auto_mask",
+    "seed": 794343123,
+    "initial_indices": [
+      4023,
+      4135
+    ],
+    "input_sha256": "52e60146ae08f4bbc50c1c0aeecfb4b3178c5b0bfb6de5f780c70d1b0c8402be",
+    "X_sha256": "7c3f0834a68b93bbedd821cf809b5540d5df3b5972722a31b45588d685df20a9",
+    "Y_sha256": "c1d5c59af71bf68a9bc50abc8f2936d566865b0d12b6e4963b219ab97eb8933e",
+    "center_Y_sha256": "cc1f84112202af3ebc5b8f95901d11d13eaa6239e0fc30e96ec03d7119584594",
+    "scale_sha256": "4807663ba26aa608e5867af597ec9c3a49502fdf16ed356960c2295008d42558",
+    "n_points": [
+      10000,
+      10000
+    ],
+    "center_Y": [
+      -170.01162719726562,
+      -113.22987365722656,
+      166.64199829101562
+    ],
+    "scale": 170.65463256835938,
+    "prepared_input": "LungCT_CT_CT/LungCT_0024__CT_to_CT_mixed.npz"
+  },
+  {
+    "moving_image_file": "LungCT/images/LungCT_0025_0000.nii.gz",
+    "fixed_image_file": "LungCT/images/LungCT_0025_0001.nii.gz",
+    "moving_label_file": "",
+    "fixed_label_file": "",
+    "moving_mask_file": "LungCT/masksTs/LungCT_0025_0000.nii.gz",
+    "fixed_mask_file": "LungCT/masksTs/LungCT_0025_0001.nii.gz",
+    "moving_landmark_file": "",
+    "fixed_landmark_file": "",
+    "moving_modality": "CT",
+    "fixed_modality": "CT",
+    "dataset": "LungCT_CT_CT",
+    "case": "LungCT_0025__CT_to_CT_mixed",
+    "group": "lung_auto_mask",
+    "seed": 416826021,
+    "initial_indices": [
+      6028,
+      5111
+    ],
+    "input_sha256": "aa3b3362f029f22123888c23b333e8e9b0c88be6c2d3682d39ac648bbd015a52",
+    "X_sha256": "39d7198c93b532ae256b5d26f4585d7cf3eeae38d5fe6de3d8a19d44ff35cbb9",
+    "Y_sha256": "74ae7beddbc2ce1d46518b4093635e2eb50e2a06b42eebf11c845607734682f4",
+    "center_Y_sha256": "a84966d1091aea9f29c624b0bc9e9fd96159279280d778b3e2867d06f0ccdf65",
+    "scale_sha256": "1f55323c4b448fc9ad7bf4515f63e94b27fdd177562a07699243864d60b76703",
+    "n_points": [
+      10000,
+      10000
+    ],
+    "center_Y": [
+      -157.81430053710938,
+      -119.43949890136719,
+      157.84194946289062
+    ],
+    "scale": 196.34596252441406,
+    "prepared_input": "LungCT_CT_CT/LungCT_0025__CT_to_CT_mixed.npz"
+  },
+  {
+    "moving_image_file": "LungCT/images/LungCT_0026_0000.nii.gz",
+    "fixed_image_file": "LungCT/images/LungCT_0026_0001.nii.gz",
+    "moving_label_file": "",
+    "fixed_label_file": "",
+    "moving_mask_file": "LungCT/masksTs/LungCT_0026_0000.nii.gz",
+    "fixed_mask_file": "LungCT/masksTs/LungCT_0026_0001.nii.gz",
+    "moving_landmark_file": "",
+    "fixed_landmark_file": "",
+    "moving_modality": "CT",
+    "fixed_modality": "CT",
+    "dataset": "LungCT_CT_CT",
+    "case": "LungCT_0026__CT_to_CT_mixed",
+    "group": "lung_auto_mask",
+    "seed": 874776459,
+    "initial_indices": [
+      5228,
+      9293
+    ],
+    "input_sha256": "920d1d09e295d7f051d4058f2a07a4d4e2045784deab94d6bfb637370fdc55fb",
+    "X_sha256": "e9ebceb4fac137556c894841841eb5a2d783bd163c9bbf412942407a27f97b6e",
+    "Y_sha256": "e1be85ff351c5ef728c3ecf34fb3399216082e6a3aeb504a623ae4076b8c756f",
+    "center_Y_sha256": "f3379257de1a4c7b7b304034852337e4654343655213e2193d94cfcde8afbb86",
+    "scale_sha256": "d710d428cfa03eb8db61ce1f97d70fed16da7f069c1f6297530e2ed2eaa08214",
+    "n_points": [
+      10000,
+      10000
+    ],
+    "center_Y": [
+      -164.14544677734375,
+      -117.01325225830078,
+      160.9751434326172
+    ],
+    "scale": 177.9019012451172,
+    "prepared_input": "LungCT_CT_CT/LungCT_0026__CT_to_CT_mixed.npz"
+  },
+  {
+    "moving_image_file": "LungCT/images/LungCT_0027_0000.nii.gz",
+    "fixed_image_file": "LungCT/images/LungCT_0027_0001.nii.gz",
+    "moving_label_file": "",
+    "fixed_label_file": "",
+    "moving_mask_file": "LungCT/masksTs/LungCT_0027_0000.nii.gz",
+    "fixed_mask_file": "LungCT/masksTs/LungCT_0027_0001.nii.gz",
+    "moving_landmark_file": "",
+    "fixed_landmark_file": "",
+    "moving_modality": "CT",
+    "fixed_modality": "CT",
+    "dataset": "LungCT_CT_CT",
+    "case": "LungCT_0027__CT_to_CT_mixed",
+    "group": "lung_auto_mask",
+    "seed": 76755238,
+    "initial_indices": [
+      8394,
+      1311
+    ],
+    "input_sha256": "f813ee7046890f0260d6c1382413f0d377c47c05e7c595d39a3b0e9cbab6b60e",
+    "X_sha256": "52f5c83ed27269be75500211491b38422c006e45da7002b58c817833c01c2f0c",
+    "Y_sha256": "3326deeca027e7b1954c38f775946224f293e824f2094112dbe2d7643749fd5d",
+    "center_Y_sha256": "e13d234789156a92b6a54304f80f9ba68d41d5b2da01a44b569bb1906e9a27e2",
+    "scale_sha256": "f5ca0f962f02e3ccc76b50672b57b32b576996280a03bf62cb25989cae910bc1",
+    "n_points": [
+      10000,
+      10000
+    ],
+    "center_Y": [
+      -168.7395477294922,
+      -119.75212860107422,
+      166.0644989013672
+    ],
+    "scale": 176.92210388183594,
+    "prepared_input": "LungCT_CT_CT/LungCT_0027__CT_to_CT_mixed.npz"
+  },
+  {
+    "moving_image_file": "LungCT/images/LungCT_0028_0000.nii.gz",
+    "fixed_image_file": "LungCT/images/LungCT_0028_0001.nii.gz",
+    "moving_label_file": "",
+    "fixed_label_file": "",
+    "moving_mask_file": "LungCT/masksTs/LungCT_0028_0000.nii.gz",
+    "fixed_mask_file": "LungCT/masksTs/LungCT_0028_0001.nii.gz",
+    "moving_landmark_file": "",
+    "fixed_landmark_file": "",
+    "moving_modality": "CT",
+    "fixed_modality": "CT",
+    "dataset": "LungCT_CT_CT",
+    "case": "LungCT_0028__CT_to_CT_mixed",
+    "group": "lung_auto_mask",
+    "seed": 362413837,
+    "initial_indices": [
+      1747,
+      6746
+    ],
+    "input_sha256": "3e5833f14f61acbcfcad867bf77b50d91b0898fe26da46ec5e99a0c9a716e71e",
+    "X_sha256": "1fcd8a3c619ee06184dd5568884800a0ab2303351e6149a077b656bcb33ffa39",
+    "Y_sha256": "b6c193e987d9c8668960b1e2c14cfc59b034c1a3f9b3a672fa9b5abcef4b7294",
+    "center_Y_sha256": "3b7a189be87f2d0ad1e6061e1924c9aab4a04fe84abb9cb83d042773395eadc1",
+    "scale_sha256": "56313eca7343ee63e5638751912b4f989b98b4fae9fbbd4ec510e36ffb55fe18",
+    "n_points": [
+      10000,
+      10000
+    ],
+    "center_Y": [
+      -159.93057250976562,
+      -108.0407485961914,
+      173.66526794433594
+    ],
+    "scale": 169.6680908203125,
+    "prepared_input": "LungCT_CT_CT/LungCT_0028__CT_to_CT_mixed.npz"
+  },
+  {
+    "moving_image_file": "LungCT/images/LungCT_0029_0000.nii.gz",
+    "fixed_image_file": "LungCT/images/LungCT_0029_0001.nii.gz",
+    "moving_label_file": "",
+    "fixed_label_file": "",
+    "moving_mask_file": "LungCT/masksTs/LungCT_0029_0000.nii.gz",
+    "fixed_mask_file": "LungCT/masksTs/LungCT_0029_0001.nii.gz",
+    "moving_landmark_file": "",
+    "fixed_landmark_file": "",
+    "moving_modality": "CT",
+    "fixed_modality": "CT",
+    "dataset": "LungCT_CT_CT",
+    "case": "LungCT_0029__CT_to_CT_mixed",
+    "group": "lung_auto_mask",
+    "seed": 1441354417,
+    "initial_indices": [
+      4352,
+      2331
+    ],
+    "input_sha256": "f38f5810ade97db0aae782b3b317fd5656c38181e6043c8f1ffea6264d5a0e8a",
+    "X_sha256": "3e1da96e131e58ab9b11080e40b7cf03a8ad0c0ec6b192304e4a28dd406a2816",
+    "Y_sha256": "5dab9718790ba26aaf8c2dc841721a8d50d01fc629232e6843ecf8daf343f91b",
+    "center_Y_sha256": "7d77649a6d65a0073f52608dafa7cf0e122b9032b73e708007d445df92036240",
+    "scale_sha256": "1f0a8f1feb5426e73fb322afc131e1abcd0c508d05bdb61908ade8785010a249",
+    "n_points": [
+      10000,
+      10000
+    ],
+    "center_Y": [
+      -168.32725524902344,
+      -110.62837219238281,
+      171.35475158691406
+    ],
+    "scale": 165.2576446533203,
+    "prepared_input": "LungCT_CT_CT/LungCT_0029__CT_to_CT_mixed.npz"
+  },
+  {
+    "moving_image_file": "LungCT/images/LungCT_0030_0000.nii.gz",
+    "fixed_image_file": "LungCT/images/LungCT_0030_0001.nii.gz",
+    "moving_label_file": "",
+    "fixed_label_file": "",
+    "moving_mask_file": "LungCT/masksTs/LungCT_0030_0000.nii.gz",
+    "fixed_mask_file": "LungCT/masksTs/LungCT_0030_0001.nii.gz",
+    "moving_landmark_file": "",
+    "fixed_landmark_file": "",
+    "moving_modality": "CT",
+    "fixed_modality": "CT",
+    "dataset": "LungCT_CT_CT",
+    "case": "LungCT_0030__CT_to_CT_mixed",
+    "group": "lung_auto_mask",
+    "seed": 1794804051,
+    "initial_indices": [
+      6441,
+      8972
+    ],
+    "input_sha256": "8f11f373b2e4e604ea799478c478f63ca7fa9c555a7d92b3c77c716ef1480a0d",
+    "X_sha256": "77b9c5c98b12564db609498cd69689966a78d0e9d5304d77be095f14eb093a47",
+    "Y_sha256": "ee67611ca38d408d7285c7e66943671a3a9fabc44591814900614b7e25a1f75d",
+    "center_Y_sha256": "1790bafa5485e6d9cfdd200c640168ae56680b79fdd6f2af1e290ff4ebfa8509",
+    "scale_sha256": "600394d938cb450282faf09d04e06caa8234b7ee7742ed30ce8b11b3d31cc3b8",
+    "n_points": [
+      10000,
+      10000
+    ],
+    "center_Y": [
+      -163.97044372558594,
+      -110.31287384033203,
+      158.28488159179688
+    ],
+    "scale": 189.00396728515625,
+    "prepared_input": "LungCT_CT_CT/LungCT_0030__CT_to_CT_mixed.npz"
+  },
+  {
+    "moving_image_file": "RIRE_preprocessed/imagesTr/patient_001_RIREPD_0000.mhd",
+    "fixed_image_file": "RIRE_preprocessed/imagesTr/patient_001_RIREPD_0001.mhd",
+    "moving_label_file": "",
+    "fixed_label_file": "",
+    "moving_mask_file": "",
+    "fixed_mask_file": "",
+    "moving_landmark_file": "",
+    "fixed_landmark_file": "",
+    "moving_modality": "CT",
+    "fixed_modality": "MRI",
+    "dataset": "RIRE_CT_MRI",
+    "case": "patient_001_RIREPD__CT_to_MRI_mixed",
+    "group": "rire_intensity",
+    "seed": 1175696914,
+    "initial_indices": [
+      6270,
+      4897
+    ],
+    "input_sha256": "fcbf5c220d187c2ea8644333f727f2072b956e51a0c88588531d07cdf47b1082",
+    "X_sha256": "ac06d82a649c07b70f90bf7613b5f8fc5f65ac49ef1b4ef0ae04ae23dcbd944c",
+    "Y_sha256": "6c533470058f9187556b00219d7bb7ce443379a3a64977c1590fdf77432426ef",
+    "center_Y_sha256": "4bf7e32dd103ad1338f834729cbbc8bc505007a5202702de73bbb27b7e5f87a1",
+    "scale_sha256": "8001c2be725cee61ab2edc92e7943935879593175ab5a5210a5615e9d987ea77",
+    "n_points": [
+      10000,
+      10000
+    ],
+    "center_Y": [
+      161.4791259765625,
+      148.91513061523438,
+      47.66579055786133
+    ],
+    "scale": 123.988525390625,
+    "prepared_input": "RIRE_CT_MRI/patient_001_RIREPD__CT_to_MRI_mixed.npz"
+  },
+  {
+    "moving_image_file": "RIRE_preprocessed/imagesTr/patient_001_RIRET1_0000.mhd",
+    "fixed_image_file": "RIRE_preprocessed/imagesTr/patient_001_RIRET1_0001.mhd",
+    "moving_label_file": "",
+    "fixed_label_file": "",
+    "moving_mask_file": "",
+    "fixed_mask_file": "",
+    "moving_landmark_file": "",
+    "fixed_landmark_file": "",
+    "moving_modality": "CT",
+    "fixed_modality": "MRI",
+    "dataset": "RIRE_CT_MRI",
+    "case": "patient_001_RIRET1__CT_to_MRI_mixed",
+    "group": "rire_intensity",
+    "seed": 1797113649,
+    "initial_indices": [
+      8598,
+      4289
+    ],
+    "input_sha256": "6a16c0ca1dc6a278507b7c8027ded43a480b2660fc62504d386920406547bb4a",
+    "X_sha256": "1faa4d7ab4454159d8a4d22e0f5d4baa9bea2ab742673574fd15aae5432b01d6",
+    "Y_sha256": "40dc6f849f7beb02376009c0040f9e829f3e53bcbd5d9b190fdd1f377107177d",
+    "center_Y_sha256": "281879d45301257c435de8f4c1f83417298f24e7527b9c988637bee0803256bf",
+    "scale_sha256": "1fa1a98c3b8d497f4f007c81b7190d1bb11fcc13beef8c0cf8f372e98c0ad1c0",
+    "n_points": [
+      10000,
+      10000
+    ],
+    "center_Y": [
+      162.29513549804688,
+      148.29336547851562,
+      47.43970489501953
+    ],
+    "scale": 123.27095794677734,
+    "prepared_input": "RIRE_CT_MRI/patient_001_RIRET1__CT_to_MRI_mixed.npz"
+  },
+  {
+    "moving_image_file": "RIRE_preprocessed/imagesTr/patient_001_RIRET2_0000.mhd",
+    "fixed_image_file": "RIRE_preprocessed/imagesTr/patient_001_RIRET2_0001.mhd",
+    "moving_label_file": "",
+    "fixed_label_file": "",
+    "moving_mask_file": "",
+    "fixed_mask_file": "",
+    "moving_landmark_file": "",
+    "fixed_landmark_file": "",
+    "moving_modality": "CT",
+    "fixed_modality": "MRI",
+    "dataset": "RIRE_CT_MRI",
+    "case": "patient_001_RIRET2__CT_to_MRI_mixed",
+    "group": "rire_intensity",
+    "seed": 750326185,
+    "initial_indices": [
+      2669,
+      8260
+    ],
+    "input_sha256": "d39ab082f8d78c0c516d74a3384f21757d40f2cd83d89b77dbfe3889b6ede048",
+    "X_sha256": "adb4d9943b61f78cedea4fed8fa34ac6579afc48a31fa6e8aca41f5d913cb5bf",
+    "Y_sha256": "b1c39bca1ff6a2988efbbb539e072406112736beb2d71d30c0e723f459a0ecbb",
+    "center_Y_sha256": "b8fa3dea8557c3b5a5916c8b97638c8643c676a43ee83265f8cc8c5cc5000251",
+    "scale_sha256": "cde08408a556b340cecd3c43f4f2f3e78effbfbb6b9c629138b226802b617489",
+    "n_points": [
+      10000,
+      10000
+    ],
+    "center_Y": [
+      160.78623962402344,
+      151.56703186035156,
+      49.52416229248047
+    ],
+    "scale": 124.42498016357422,
+    "prepared_input": "RIRE_CT_MRI/patient_001_RIRET2__CT_to_MRI_mixed.npz"
+  },
+  {
+    "moving_image_file": "RIRE_preprocessed/imagesTr/patient_002_RIREPD_0000.mhd",
+    "fixed_image_file": "RIRE_preprocessed/imagesTr/patient_002_RIREPD_0001.mhd",
+    "moving_label_file": "",
+    "fixed_label_file": "",
+    "moving_mask_file": "",
+    "fixed_mask_file": "",
+    "moving_landmark_file": "",
+    "fixed_landmark_file": "",
+    "moving_modality": "CT",
+    "fixed_modality": "MRI",
+    "dataset": "RIRE_CT_MRI",
+    "case": "patient_002_RIREPD__CT_to_MRI_mixed",
+    "group": "rire_intensity",
+    "seed": 1641607962,
+    "initial_indices": [
+      2094,
+      306
+    ],
+    "input_sha256": "847c176ce21e8baedf32fae0b6be506d8832803b61cb233580364917cb879ff7",
+    "X_sha256": "c0d78fe47ff68edd2ee0c0893c7041d955f6a906c47f1b749dd1c3c6c456a60b",
+    "Y_sha256": "0f511fc61d557261d02cd0c8aa5fe90ee1228ebb7ab0ad4567e0dbcb94fe13e4",
+    "center_Y_sha256": "cad896f451e5982630d345c93f4ba2395a2369be7c402cc5663a154523c57b93",
+    "scale_sha256": "e45560dde0964d3743bc5897f47ba8b6e93a59b94ad2c66679a2a93d28992279",
+    "n_points": [
+      10000,
+      10000
+    ],
+    "center_Y": [
+      160.13270568847656,
+      153.15158081054688,
+      43.688316345214844
+    ],
+    "scale": 114.82759857177734,
+    "prepared_input": "RIRE_CT_MRI/patient_002_RIREPD__CT_to_MRI_mixed.npz"
+  },
+  {
+    "moving_image_file": "RIRE_preprocessed/imagesTr/patient_002_RIRET1_0000.mhd",
+    "fixed_image_file": "RIRE_preprocessed/imagesTr/patient_002_RIRET1_0001.mhd",
+    "moving_label_file": "",
+    "fixed_label_file": "",
+    "moving_mask_file": "",
+    "fixed_mask_file": "",
+    "moving_landmark_file": "",
+    "fixed_landmark_file": "",
+    "moving_modality": "CT",
+    "fixed_modality": "MRI",
+    "dataset": "RIRE_CT_MRI",
+    "case": "patient_002_RIRET1__CT_to_MRI_mixed",
+    "group": "rire_intensity",
+    "seed": 1779573068,
+    "initial_indices": [
+      7322,
+      4246
+    ],
+    "input_sha256": "03ce89a4481caf86899dacc1fc4aba5c2ecb839afa36dab2381d149f09ab2d71",
+    "X_sha256": "2e189fa21a009bda632f770373cdd6e7eadd80767a9a1adfb06fd2efee9e7b0a",
+    "Y_sha256": "b8e9229f8c35494e1d88b916a120a66bf9183b2dfac59d2cd297dd80e86888eb",
+    "center_Y_sha256": "92fc4e9257d4594907266956105ab97915c8b8b2a6b6610912c4ddd9f0d97331",
+    "scale_sha256": "7fcca4a8111eb9cfc35f9aba3f2df2fb6cfda22f8ba64fc12c222fd29831bb39",
+    "n_points": [
+      10000,
+      10000
+    ],
+    "center_Y": [
+      161.3443603515625,
+      154.64944458007812,
+      43.613441467285156
+    ],
+    "scale": 115.19903564453125,
+    "prepared_input": "RIRE_CT_MRI/patient_002_RIRET1__CT_to_MRI_mixed.npz"
+  },
+  {
+    "moving_image_file": "RIRE_preprocessed/imagesTr/patient_002_RIRET2_0000.mhd",
+    "fixed_image_file": "RIRE_preprocessed/imagesTr/patient_002_RIRET2_0001.mhd",
+    "moving_label_file": "",
+    "fixed_label_file": "",
+    "moving_mask_file": "",
+    "fixed_mask_file": "",
+    "moving_landmark_file": "",
+    "fixed_landmark_file": "",
+    "moving_modality": "CT",
+    "fixed_modality": "MRI",
+    "dataset": "RIRE_CT_MRI",
+    "case": "patient_002_RIRET2__CT_to_MRI_mixed",
+    "group": "rire_intensity",
+    "seed": 270888361,
+    "initial_indices": [
+      2151,
+      5691
+    ],
+    "input_sha256": "f1ec339de3ec5473a12ba1e2003b3913ef77ba4f409e5b15536e1b3655f0ae01",
+    "X_sha256": "7fa149cdfc5b3fa815b07af11c674d9ebba960f6ad10d6a0dd48a56b05fbb9e8",
+    "Y_sha256": "93c73afcaf6547139539ede14d34142d5b7f7a9101baf3cf8d641ce0e1aba584",
+    "center_Y_sha256": "5a36ca97368fb98ee2ccb7708d4c3e7201887dabd8800e82eb1303067b1a575f",
+    "scale_sha256": "b7662c88d7456f0fbea38692419f22bffd59c75d1b63c3c31571112bb272a8c5",
+    "n_points": [
+      10000,
+      10000
+    ],
+    "center_Y": [
+      164.11000061035156,
+      153.03550720214844,
+      39.78230285644531
+    ],
+    "scale": 110.3233871459961,
+    "prepared_input": "RIRE_CT_MRI/patient_002_RIRET2__CT_to_MRI_mixed.npz"
+  },
+  {
+    "moving_image_file": "RIRE_preprocessed/imagesTr/patient_003_RIREPD_0000.mhd",
+    "fixed_image_file": "RIRE_preprocessed/imagesTr/patient_003_RIREPD_0001.mhd",
+    "moving_label_file": "",
+    "fixed_label_file": "",
+    "moving_mask_file": "",
+    "fixed_mask_file": "",
+    "moving_landmark_file": "",
+    "fixed_landmark_file": "",
+    "moving_modality": "CT",
+    "fixed_modality": "MRI",
+    "dataset": "RIRE_CT_MRI",
+    "case": "patient_003_RIREPD__CT_to_MRI_mixed",
+    "group": "rire_intensity",
+    "seed": 2018022004,
+    "initial_indices": [
+      9462,
+      231
+    ],
+    "input_sha256": "731296db8349d644231d6d6d78f7fafb1b16878353ecb7207ec29508f5c3b6d7",
+    "X_sha256": "30c2b9d6e277d6815dcfefb8e39f23ecbdca3136fe16f47819754f6028eeaf67",
+    "Y_sha256": "a401e3b6b78eea549cde4d177e86888e8a433ab7a9fa7f3949391be781e67195",
+    "center_Y_sha256": "92ba1f3714245aa7184dcbf2862f371399a0a0da883de17d459eb5d24ca461e5",
+    "scale_sha256": "974016ea6179a6abdec00284d82592fb13179e86e0094f31da9903249728d2a2",
+    "n_points": [
+      10000,
+      10000
+    ],
+    "center_Y": [
+      159.86061096191406,
+      144.97193908691406,
+      31.496131896972656
+    ],
+    "scale": 104.78153991699219,
+    "prepared_input": "RIRE_CT_MRI/patient_003_RIREPD__CT_to_MRI_mixed.npz"
+  },
+  {
+    "moving_image_file": "RIRE_preprocessed/imagesTr/patient_003_RIRET1_0000.mhd",
+    "fixed_image_file": "RIRE_preprocessed/imagesTr/patient_003_RIRET1_0001.mhd",
+    "moving_label_file": "",
+    "fixed_label_file": "",
+    "moving_mask_file": "",
+    "fixed_mask_file": "",
+    "moving_landmark_file": "",
+    "fixed_landmark_file": "",
+    "moving_modality": "CT",
+    "fixed_modality": "MRI",
+    "dataset": "RIRE_CT_MRI",
+    "case": "patient_003_RIRET1__CT_to_MRI_mixed",
+    "group": "rire_intensity",
+    "seed": 708241895,
+    "initial_indices": [
+      1585,
+      6865
+    ],
+    "input_sha256": "3da4964b188d27e4d33f1c267d77015a167da2ec1e64d3b7c8e1e3d92315bc8f",
+    "X_sha256": "7dd2e83d11e0de9372f8c4aa29de603917ae2fab98e7d77b952731aec0b1face",
+    "Y_sha256": "f6309eb8afabedf4ce349fa9d2a002ea726c931f8f8a86a942d8cb73aa787ec2",
+    "center_Y_sha256": "8f6f0742856b7871b1b7757c1c24742bf909e1997c70bcc80f1e93c16f9aea84",
+    "scale_sha256": "6701f3a4e88ab1bab8baae8f61195ebb76a79fde6656634ee55298709ccaa385",
+    "n_points": [
+      10000,
+      10000
+    ],
+    "center_Y": [
+      160.46255493164062,
+      148.98977661132812,
+      36.29903030395508
+    ],
+    "scale": 106.85813903808594,
+    "prepared_input": "RIRE_CT_MRI/patient_003_RIRET1__CT_to_MRI_mixed.npz"
+  },
+  {
+    "moving_image_file": "RIRE_preprocessed/imagesTr/patient_003_RIRET2_0000.mhd",
+    "fixed_image_file": "RIRE_preprocessed/imagesTr/patient_003_RIRET2_0001.mhd",
+    "moving_label_file": "",
+    "fixed_label_file": "",
+    "moving_mask_file": "",
+    "fixed_mask_file": "",
+    "moving_landmark_file": "",
+    "fixed_landmark_file": "",
+    "moving_modality": "CT",
+    "fixed_modality": "MRI",
+    "dataset": "RIRE_CT_MRI",
+    "case": "patient_003_RIRET2__CT_to_MRI_mixed",
+    "group": "rire_intensity",
+    "seed": 1728829573,
+    "initial_indices": [
+      7859,
+      5228
+    ],
+    "input_sha256": "a95603d5404bdfb7a2d146d50bf1fe0ac1b9a4027593158a3d7f79b6cacd5bfb",
+    "X_sha256": "be201aed4ab31cdd91d47620df434c6606ab76dd421910c26311600746a446b4",
+    "Y_sha256": "01fb95b438d284db2124cf7fc8b1a1d57e7aa3aa68e96948b31b781167b04c20",
+    "center_Y_sha256": "27305932f620dd7f88986b6520e04e4da44db88db753079c9ceabeffeb552907",
+    "scale_sha256": "c2239fa98825c20f55e52a4cd87494a96f72378a925e1f401bb86d00b226395e",
+    "n_points": [
+      10000,
+      10000
+    ],
+    "center_Y": [
+      160.17706298828125,
+      150.75941467285156,
+      35.46898651123047
+    ],
+    "scale": 103.39482879638672,
+    "prepared_input": "RIRE_CT_MRI/patient_003_RIRET2__CT_to_MRI_mixed.npz"
+  },
+  {
+    "moving_image_file": "RIRE_preprocessed/imagesTr/patient_004_RIREPD_0000.mhd",
+    "fixed_image_file": "RIRE_preprocessed/imagesTr/patient_004_RIREPD_0001.mhd",
+    "moving_label_file": "",
+    "fixed_label_file": "",
+    "moving_mask_file": "",
+    "fixed_mask_file": "",
+    "moving_landmark_file": "",
+    "fixed_landmark_file": "",
+    "moving_modality": "CT",
+    "fixed_modality": "MRI",
+    "dataset": "RIRE_CT_MRI",
+    "case": "patient_004_RIREPD__CT_to_MRI_mixed",
+    "group": "rire_intensity",
+    "seed": 264326531,
+    "initial_indices": [
+      888,
+      1449
+    ],
+    "input_sha256": "48a8ce99090f36b2a71784c729e8e2c6941860459a6f74c808003611439e921f",
+    "X_sha256": "394f360811c123d446f4dcb46aa8e659619c6d3aecc3359698af8eff8d632f22",
+    "Y_sha256": "99f1ae772ad78d7cbd1c675c6a25008949e35a41161f4d9320fcd0e46bb58fe5",
+    "center_Y_sha256": "4367f5b1840b8a4a56390ce0642daba49e46cb6d0decff3d03a0667d79b151e8",
+    "scale_sha256": "5591cbfb0cc6bfb74b52251b66a40ebecd5efd15a1fd13f96f73b20957343f5d",
+    "n_points": [
+      10000,
+      10000
+    ],
+    "center_Y": [
+      159.4038848876953,
+      145.35133361816406,
+      31.521705627441406
+    ],
+    "scale": 105.32142639160156,
+    "prepared_input": "RIRE_CT_MRI/patient_004_RIREPD__CT_to_MRI_mixed.npz"
+  },
+  {
+    "moving_image_file": "RIRE_preprocessed/imagesTr/patient_004_RIRET1_0000.mhd",
+    "fixed_image_file": "RIRE_preprocessed/imagesTr/patient_004_RIRET1_0001.mhd",
+    "moving_label_file": "",
+    "fixed_label_file": "",
+    "moving_mask_file": "",
+    "fixed_mask_file": "",
+    "moving_landmark_file": "",
+    "fixed_landmark_file": "",
+    "moving_modality": "CT",
+    "fixed_modality": "MRI",
+    "dataset": "RIRE_CT_MRI",
+    "case": "patient_004_RIRET1__CT_to_MRI_mixed",
+    "group": "rire_intensity",
+    "seed": 1841452468,
+    "initial_indices": [
+      5946,
+      1665
+    ],
+    "input_sha256": "957f206af2d6821ef35e6c63a72de49ae4a3970f06ed9a9ad8e2ad53528d0b97",
+    "X_sha256": "a4cf804710527aa447797f08f96fdbe53441afe7fd023720c42191d21f129b0a",
+    "Y_sha256": "0323eb369d4e136e6ad216f346409307a1b2a7be4d78d33d2756c4df286d7075",
+    "center_Y_sha256": "c3a7766e3b5958cc0fb9a08970ac3b5c74e140e134f0afbe927cf25a858fe73d",
+    "scale_sha256": "0ec4e3db448f00c4542d1fe75d28ff65249a0986014e6de480482ab149a3818c",
+    "n_points": [
+      10000,
+      10000
+    ],
+    "center_Y": [
+      160.16183471679688,
+      144.23509216308594,
+      31.532821655273438
+    ],
+    "scale": 104.66263580322266,
+    "prepared_input": "RIRE_CT_MRI/patient_004_RIRET1__CT_to_MRI_mixed.npz"
+  },
+  {
+    "moving_image_file": "RIRE_preprocessed/imagesTr/patient_004_RIRET2_0000.mhd",
+    "fixed_image_file": "RIRE_preprocessed/imagesTr/patient_004_RIRET2_0001.mhd",
+    "moving_label_file": "",
+    "fixed_label_file": "",
+    "moving_mask_file": "",
+    "fixed_mask_file": "",
+    "moving_landmark_file": "",
+    "fixed_landmark_file": "",
+    "moving_modality": "CT",
+    "fixed_modality": "MRI",
+    "dataset": "RIRE_CT_MRI",
+    "case": "patient_004_RIRET2__CT_to_MRI_mixed",
+    "group": "rire_intensity",
+    "seed": 1817702670,
+    "initial_indices": [
+      5384,
+      9813
+    ],
+    "input_sha256": "d66a51b5239b634a384554d7c15f29b7d159487e933330cfb295106694dbe9ff",
+    "X_sha256": "a6bc1544031cba97cc26cbb321ac867e9e454b2d3b8688d240207fb5746bc1cf",
+    "Y_sha256": "21420f17bc8d01c2e9a368a539796b57f72ebe276572e370b081bcfb5fa3b9db",
+    "center_Y_sha256": "c9bfa24837b8b7ddde8c4f3c6449bf0741abb96c1383fca1222d491c13d6dbda",
+    "scale_sha256": "c7fe4fb7a0831fd14275e49e00c9d1bbe8e2a3c7e1aa8f192d2abebf2e01e973",
+    "n_points": [
+      10000,
+      10000
+    ],
+    "center_Y": [
+      160.43655395507812,
+      148.5672149658203,
+      29.595415115356445
+    ],
+    "scale": 100.54444122314453,
+    "prepared_input": "RIRE_CT_MRI/patient_004_RIRET2__CT_to_MRI_mixed.npz"
+  },
+  {
+    "moving_image_file": "RIRE_preprocessed/imagesTr/patient_005_RIREPD_0000.mhd",
+    "fixed_image_file": "RIRE_preprocessed/imagesTr/patient_005_RIREPD_0001.mhd",
+    "moving_label_file": "",
+    "fixed_label_file": "",
+    "moving_mask_file": "",
+    "fixed_mask_file": "",
+    "moving_landmark_file": "",
+    "fixed_landmark_file": "",
+    "moving_modality": "CT",
+    "fixed_modality": "MRI",
+    "dataset": "RIRE_CT_MRI",
+    "case": "patient_005_RIREPD__CT_to_MRI_mixed",
+    "group": "rire_intensity",
+    "seed": 1325420647,
+    "initial_indices": [
+      3740,
+      9626
+    ],
+    "input_sha256": "adbb8b2b032c19cc2ecd9782991d4e9c75bc0124e103ab89c652ca1ba3155389",
+    "X_sha256": "53e635775c7d382350cf11b6ccf75b9aed90b4066bf871e4fab4b98753ad32c3",
+    "Y_sha256": "08a73ae26c557f8e9df3eb7f7b6123638165414b75c68a3e1bb0ba2b769085fd",
+    "center_Y_sha256": "6732918a424be141b0695c45d8a420b5065bef98f7ce374e1512bcd833314bc9",
+    "scale_sha256": "0e301e20c810e68e28b8292d02dde5de49eabbfcf1715a5e3f8cdee5a3efd4ef",
+    "n_points": [
+      10000,
+      10000
+    ],
+    "center_Y": [
+      159.5559844970703,
+      150.42950439453125,
+      46.850685119628906
+    ],
+    "scale": 101.73017883300781,
+    "prepared_input": "RIRE_CT_MRI/patient_005_RIREPD__CT_to_MRI_mixed.npz"
+  },
+  {
+    "moving_image_file": "RIRE_preprocessed/imagesTr/patient_005_RIRET1_0000.mhd",
+    "fixed_image_file": "RIRE_preprocessed/imagesTr/patient_005_RIRET1_0001.mhd",
+    "moving_label_file": "",
+    "fixed_label_file": "",
+    "moving_mask_file": "",
+    "fixed_mask_file": "",
+    "moving_landmark_file": "",
+    "fixed_landmark_file": "",
+    "moving_modality": "CT",
+    "fixed_modality": "MRI",
+    "dataset": "RIRE_CT_MRI",
+    "case": "patient_005_RIRET1__CT_to_MRI_mixed",
+    "group": "rire_intensity",
+    "seed": 127846554,
+    "initial_indices": [
+      5681,
+      8157
+    ],
+    "input_sha256": "8245caa931cceb5e18b79da04f1366cb8234a64e5c274d92508320b12041d2a3",
+    "X_sha256": "c12048241d3e112723c14cadeb7816ede551089ca9f97b6a20dad81307a8dc59",
+    "Y_sha256": "7b1909e011943bdfe0697870be97414121b3ddd256143821e2b4f35c08ff5dfe",
+    "center_Y_sha256": "dd8bcfcfc85f421b9955d7b0b676a9180fcec755ff8bad0ca0c32db576a57afb",
+    "scale_sha256": "b02049f286bb9dad332798fa877aba2eccfd47d857a68174176e59fc0a19683c",
+    "n_points": [
+      10000,
+      10000
+    ],
+    "center_Y": [
+      159.1038360595703,
+      149.45372009277344,
+      45.55547332763672
+    ],
+    "scale": 102.6475601196289,
+    "prepared_input": "RIRE_CT_MRI/patient_005_RIRET1__CT_to_MRI_mixed.npz"
+  },
+  {
+    "moving_image_file": "RIRE_preprocessed/imagesTr/patient_005_RIRET2_0000.mhd",
+    "fixed_image_file": "RIRE_preprocessed/imagesTr/patient_005_RIRET2_0001.mhd",
+    "moving_label_file": "",
+    "fixed_label_file": "",
+    "moving_mask_file": "",
+    "fixed_mask_file": "",
+    "moving_landmark_file": "",
+    "fixed_landmark_file": "",
+    "moving_modality": "CT",
+    "fixed_modality": "MRI",
+    "dataset": "RIRE_CT_MRI",
+    "case": "patient_005_RIRET2__CT_to_MRI_mixed",
+    "group": "rire_intensity",
+    "seed": 204350695,
+    "initial_indices": [
+      9372,
+      1303
+    ],
+    "input_sha256": "3811a38126124bc137889b5663cc52dd07dcf7d00742d00267fc71a2d74e850c",
+    "X_sha256": "d7c9b242674dfbb8b30c98c6c21b1cdf73e5df7e45a236ecfb0a995172baeb1a",
+    "Y_sha256": "77482e867340be3140c141d673e09ccf30d0f5b7fcb85e5983a66e493750fd13",
+    "center_Y_sha256": "a104bcb2a08e174a5771b22d1c16de1e10b064fac3e427902da46821efe90f30",
+    "scale_sha256": "80f12db8b6cc17381a6fde5a84b9ec8e0c4d8f17fcbaf7ea2056cb0287c26d90",
+    "n_points": [
+      10000,
+      10000
+    ],
+    "center_Y": [
+      159.65957641601562,
+      152.3588104248047,
+      44.254844665527344
+    ],
+    "scale": 99.57572937011719,
+    "prepared_input": "RIRE_CT_MRI/patient_005_RIRET2__CT_to_MRI_mixed.npz"
+  },
+  {
+    "moving_image_file": "RIRE_preprocessed/imagesTr/patient_006_RIREPD_0000.mhd",
+    "fixed_image_file": "RIRE_preprocessed/imagesTr/patient_006_RIREPD_0001.mhd",
+    "moving_label_file": "",
+    "fixed_label_file": "",
+    "moving_mask_file": "",
+    "fixed_mask_file": "",
+    "moving_landmark_file": "",
+    "fixed_landmark_file": "",
+    "moving_modality": "CT",
+    "fixed_modality": "MRI",
+    "dataset": "RIRE_CT_MRI",
+    "case": "patient_006_RIREPD__CT_to_MRI_mixed",
+    "group": "rire_intensity",
+    "seed": 1217256660,
+    "initial_indices": [
+      7844,
+      3263
+    ],
+    "input_sha256": "2dbe3808417b3c1849037e1622fb9f1dfb8378849094c8f0f56ed255969ae1c1",
+    "X_sha256": "fdedb5a788ce03a87756110aef627cc4e4e0f14cb66404e82e4158cb5fe3696b",
+    "Y_sha256": "46126b2880a272ef1a02bc8eb9092c07404f52f67eed3190f2e54b0c31fccfd1",
+    "center_Y_sha256": "7a123219bddcd64b0a68104cc60ffe911b3c2deea146a7d459f4d9bdd25484eb",
+    "scale_sha256": "9d8770257c886c3922a8e8bad4845f6ed606e682098a807aff9b0328005cab07",
+    "n_points": [
+      10000,
+      10000
+    ],
+    "center_Y": [
+      158.1696014404297,
+      145.4505615234375,
+      40.79548263549805
+    ],
+    "scale": 106.4495620727539,
+    "prepared_input": "RIRE_CT_MRI/patient_006_RIREPD__CT_to_MRI_mixed.npz"
+  },
+  {
+    "moving_image_file": "RIRE_preprocessed/imagesTr/patient_006_RIRET1_0000.mhd",
+    "fixed_image_file": "RIRE_preprocessed/imagesTr/patient_006_RIRET1_0001.mhd",
+    "moving_label_file": "",
+    "fixed_label_file": "",
+    "moving_mask_file": "",
+    "fixed_mask_file": "",
+    "moving_landmark_file": "",
+    "fixed_landmark_file": "",
+    "moving_modality": "CT",
+    "fixed_modality": "MRI",
+    "dataset": "RIRE_CT_MRI",
+    "case": "patient_006_RIRET1__CT_to_MRI_mixed",
+    "group": "rire_intensity",
+    "seed": 873730335,
+    "initial_indices": [
+      9707,
+      134
+    ],
+    "input_sha256": "cf1f433245064a2878639b151ccc80e6ddc8116e52c20a601f8cce3454aa050b",
+    "X_sha256": "e6b1dfbae647ea47f8ee3657e7b4015edf4137df47b5dd618d939473484a9747",
+    "Y_sha256": "0833b9be7a4ab462a0348b15d1d4d8cd6a867c09bfa035d31ba56775ade9c5d9",
+    "center_Y_sha256": "494bd42741c56770126be46cf4d89eae9bd8ff42aea25d81da8118c8243c76c8",
+    "scale_sha256": "ab4c677569a3403152aa620b9145962dc569e744b06a1724d7dc5d50a7bde92f",
+    "n_points": [
+      10000,
+      10000
+    ],
+    "center_Y": [
+      157.7256317138672,
+      146.40237426757812,
+      40.02040100097656
+    ],
+    "scale": 107.862060546875,
+    "prepared_input": "RIRE_CT_MRI/patient_006_RIRET1__CT_to_MRI_mixed.npz"
+  },
+  {
+    "moving_image_file": "RIRE_preprocessed/imagesTr/patient_006_RIRET2_0000.mhd",
+    "fixed_image_file": "RIRE_preprocessed/imagesTr/patient_006_RIRET2_0001.mhd",
+    "moving_label_file": "",
+    "fixed_label_file": "",
+    "moving_mask_file": "",
+    "fixed_mask_file": "",
+    "moving_landmark_file": "",
+    "fixed_landmark_file": "",
+    "moving_modality": "CT",
+    "fixed_modality": "MRI",
+    "dataset": "RIRE_CT_MRI",
+    "case": "patient_006_RIRET2__CT_to_MRI_mixed",
+    "group": "rire_intensity",
+    "seed": 1669042586,
+    "initial_indices": [
+      9220,
+      7593
+    ],
+    "input_sha256": "7c5d9f1054f190d55df8d732ed6b8cc9994f9f556b68636d0a1f4bdcf0d31a6a",
+    "X_sha256": "f88456579f21ec137f7cdfd821d6612c042d791fadd74e8873ef407a76620531",
+    "Y_sha256": "5a37248888e2db04f80d026e9a0cb11b9711948934bf8cb27e3d567c73352392",
+    "center_Y_sha256": "8b9d6340e9cc290a2d212685f73b23108a331d8a940d4e5f8439dbc40b33c5ae",
+    "scale_sha256": "c1fab596ad7edd244ec5f008f5aa4e6d04f233be7b77b874f293105591241140",
+    "n_points": [
+      10000,
+      10000
+    ],
+    "center_Y": [
+      159.21791076660156,
+      151.8245086669922,
+      40.16500473022461
+    ],
+    "scale": 110.98057556152344,
+    "prepared_input": "RIRE_CT_MRI/patient_006_RIRET2__CT_to_MRI_mixed.npz"
+  },
+  {
+    "moving_image_file": "RIRE_preprocessed/imagesTr/patient_007_RIREPD_0000.mhd",
+    "fixed_image_file": "RIRE_preprocessed/imagesTr/patient_007_RIREPD_0001.mhd",
+    "moving_label_file": "",
+    "fixed_label_file": "",
+    "moving_mask_file": "",
+    "fixed_mask_file": "",
+    "moving_landmark_file": "",
+    "fixed_landmark_file": "",
+    "moving_modality": "CT",
+    "fixed_modality": "MRI",
+    "dataset": "RIRE_CT_MRI",
+    "case": "patient_007_RIREPD__CT_to_MRI_mixed",
+    "group": "rire_intensity",
+    "seed": 114502674,
+    "initial_indices": [
+      2857,
+      8476
+    ],
+    "input_sha256": "9d618b6fdc5f28a60b97b23b07f365b1d39b46ed3d6d847ba4620905e5d8afd7",
+    "X_sha256": "2df95ac7be1089825d80b1118ed6c98447d45567c5a6e4e019972ac767a45b1a",
+    "Y_sha256": "3cdca9bfcaa39406da0c590b64eed800dddf4c4d0e808511a892e9c357a32978",
+    "center_Y_sha256": "8e26a8ca47563691bef31bf97549caeb7530b23276ce297dd69af53cc51c22a5",
+    "scale_sha256": "77b9ad00cf2bf688af2e8fffbb721b7b54764cba39903c00c842491d2b833325",
+    "n_points": [
+      10000,
+      10000
+    ],
+    "center_Y": [
+      161.5589599609375,
+      144.9334716796875,
+      44.9073486328125
+    ],
+    "scale": 98.82141876220703,
+    "prepared_input": "RIRE_CT_MRI/patient_007_RIREPD__CT_to_MRI_mixed.npz"
+  },
+  {
+    "moving_image_file": "RIRE_preprocessed/imagesTr/patient_007_RIRET1_0000.mhd",
+    "fixed_image_file": "RIRE_preprocessed/imagesTr/patient_007_RIRET1_0001.mhd",
+    "moving_label_file": "",
+    "fixed_label_file": "",
+    "moving_mask_file": "",
+    "fixed_mask_file": "",
+    "moving_landmark_file": "",
+    "fixed_landmark_file": "",
+    "moving_modality": "CT",
+    "fixed_modality": "MRI",
+    "dataset": "RIRE_CT_MRI",
+    "case": "patient_007_RIRET1__CT_to_MRI_mixed",
+    "group": "rire_intensity",
+    "seed": 548276944,
+    "initial_indices": [
+      1469,
+      9302
+    ],
+    "input_sha256": "f1d0d7b55b95de77800dda681e0ce5ccf6743564fbd67e3077d75543c783e618",
+    "X_sha256": "b2c8bfbe6c559ef882d2baed65318f36090980e0d245886777fc44da27726326",
+    "Y_sha256": "2175893a184f84808490973a02f529110657572c01f753638041876fc5f53fd7",
+    "center_Y_sha256": "48fd988733d009d0f39c7c68ceb7346d64cdcb312ab287e0172588845e07b9fa",
+    "scale_sha256": "3fa1977c551570c36e7da14d1bd505c63d397c415e63e743148fb47ddfd7d20a",
+    "n_points": [
+      10000,
+      10000
+    ],
+    "center_Y": [
+      161.38531494140625,
+      144.7410430908203,
+      45.080772399902344
+    ],
+    "scale": 99.45755004882812,
+    "prepared_input": "RIRE_CT_MRI/patient_007_RIRET1__CT_to_MRI_mixed.npz"
+  },
+  {
+    "moving_image_file": "RIRE_preprocessed/imagesTr/patient_007_RIRET2_0000.mhd",
+    "fixed_image_file": "RIRE_preprocessed/imagesTr/patient_007_RIRET2_0001.mhd",
+    "moving_label_file": "",
+    "fixed_label_file": "",
+    "moving_mask_file": "",
+    "fixed_mask_file": "",
+    "moving_landmark_file": "",
+    "fixed_landmark_file": "",
+    "moving_modality": "CT",
+    "fixed_modality": "MRI",
+    "dataset": "RIRE_CT_MRI",
+    "case": "patient_007_RIRET2__CT_to_MRI_mixed",
+    "group": "rire_intensity",
+    "seed": 871116311,
+    "initial_indices": [
+      2524,
+      3511
+    ],
+    "input_sha256": "1a1960c97aa2eb0289173a1227faf07964d7b928653fd56abb3e615c71bce624",
+    "X_sha256": "0e16289e76c7c9d6e745c8a1c4c4f66776ff2d19f9350c132ba46b4ded94a9da",
+    "Y_sha256": "1e3c3ce4d14755230d607e18717b925c6177bb7fee3d9cc494054a51ed7d707a",
+    "center_Y_sha256": "1d439795a061511ee301938ff73a2da17c9614c517253fc90ed7698fb8d49075",
+    "scale_sha256": "0f2b709d94cec9c54e2b30a6a0c9aa47a465302df8e1bbd6b70cfdd21b5ec7f6",
+    "n_points": [
+      10000,
+      10000
+    ],
+    "center_Y": [
+      163.8274383544922,
+      145.15907287597656,
+      44.4426155090332
+    ],
+    "scale": 94.38478088378906,
+    "prepared_input": "RIRE_CT_MRI/patient_007_RIRET2__CT_to_MRI_mixed.npz"
+  },
+  {
+    "moving_image_file": "RIRE_preprocessed/imagesTr/patient_008_RIREPD_0000.mhd",
+    "fixed_image_file": "RIRE_preprocessed/imagesTr/patient_008_RIREPD_0001.mhd",
+    "moving_label_file": "",
+    "fixed_label_file": "",
+    "moving_mask_file": "",
+    "fixed_mask_file": "",
+    "moving_landmark_file": "",
+    "fixed_landmark_file": "",
+    "moving_modality": "CT",
+    "fixed_modality": "MRI",
+    "dataset": "RIRE_CT_MRI",
+    "case": "patient_008_RIREPD__CT_to_MRI_mixed",
+    "group": "rire_intensity",
+    "seed": 186945542,
+    "initial_indices": [
+      9910,
+      7487
+    ],
+    "input_sha256": "397789faf7023766648e37546f8106935e3579a071345fe5441e0c1eb2f153cc",
+    "X_sha256": "7c10d3dadf7cf008da2919c46f42a04bf45b1b13cac8974b3654b1cb07768cfe",
+    "Y_sha256": "4c2d2ef179e775c813f4e1c43d5c34c1c6d7041291965a049b01e1aaec4ddb2c",
+    "center_Y_sha256": "c48caf0de2deaee06ae19b3407e09456a92a9de3f58fcc2f550418d702759d41",
+    "scale_sha256": "82a97bf40726259c406009e15f69ef5da7d8e0c0fc7bfcf9e7956d50a4a81ef7",
+    "n_points": [
+      10000,
+      10000
+    ],
+    "center_Y": [
+      171.96994018554688,
+      146.05923461914062,
+      41.162559509277344
+    ],
+    "scale": 115.81767272949219,
+    "prepared_input": "RIRE_CT_MRI/patient_008_RIREPD__CT_to_MRI_mixed.npz"
+  },
+  {
+    "moving_image_file": "RIRE_preprocessed/imagesTr/patient_008_RIRET1_0000.mhd",
+    "fixed_image_file": "RIRE_preprocessed/imagesTr/patient_008_RIRET1_0001.mhd",
+    "moving_label_file": "",
+    "fixed_label_file": "",
+    "moving_mask_file": "",
+    "fixed_mask_file": "",
+    "moving_landmark_file": "",
+    "fixed_landmark_file": "",
+    "moving_modality": "CT",
+    "fixed_modality": "MRI",
+    "dataset": "RIRE_CT_MRI",
+    "case": "patient_008_RIRET1__CT_to_MRI_mixed",
+    "group": "rire_intensity",
+    "seed": 833723460,
+    "initial_indices": [
+      6864,
+      6849
+    ],
+    "input_sha256": "37a4d6f491c10a82aa304b23b44a84405a875610ef731b77f5f782f8d4c1332c",
+    "X_sha256": "002afb4e6b419eab5b9e8562db6c9f121ecd14225ff671a92f5d919814913302",
+    "Y_sha256": "7d919c64dcf34bc06bc4cfde83b0794120a7ead9416c3c698feb0701b2f20c0c",
+    "center_Y_sha256": "d38104033f8e4ab7afcf99f5c79464322e48e0904330f3e5cdf25212ed5a6680",
+    "scale_sha256": "7717abef257af33e27836f16ec954ac4f8a9201793dc098e19a6499550fcb44d",
+    "n_points": [
+      10000,
+      10000
+    ],
+    "center_Y": [
+      163.49392700195312,
+      122.80467224121094,
+      42.88779830932617
+    ],
+    "scale": 114.56790161132812,
+    "prepared_input": "RIRE_CT_MRI/patient_008_RIRET1__CT_to_MRI_mixed.npz"
+  },
+  {
+    "moving_image_file": "RIRE_preprocessed/imagesTr/patient_008_RIRET2_0000.mhd",
+    "fixed_image_file": "RIRE_preprocessed/imagesTr/patient_008_RIRET2_0001.mhd",
+    "moving_label_file": "",
+    "fixed_label_file": "",
+    "moving_mask_file": "",
+    "fixed_mask_file": "",
+    "moving_landmark_file": "",
+    "fixed_landmark_file": "",
+    "moving_modality": "CT",
+    "fixed_modality": "MRI",
+    "dataset": "RIRE_CT_MRI",
+    "case": "patient_008_RIRET2__CT_to_MRI_mixed",
+    "group": "rire_intensity",
+    "seed": 498100150,
+    "initial_indices": [
+      193,
+      7947
+    ],
+    "input_sha256": "0a249925df4010e2e8907cd644b76881897f3039b89b1e5d7b70e5b2a704bbde",
+    "X_sha256": "fc0b88bd90488ef24e8ff3c1a105497a8337753fba78213241e83a5a863032ba",
+    "Y_sha256": "2743d3f68b06dcacdcfc67e19712e5101442210d400c255abf4a6dea3cb92ac3",
+    "center_Y_sha256": "ff3d3f3d83a97f4321fed04c18bca071624a78396ea871b624fdb30169c3821c",
+    "scale_sha256": "0803d55e5350bdf9b963c778b9f399007cc6a2fe2203114a5c2b730988dc98fd",
+    "n_points": [
+      10000,
+      10000
+    ],
+    "center_Y": [
+      156.73904418945312,
+      124.60628509521484,
+      37.91586685180664
+    ],
+    "scale": 108.1119155883789,
+    "prepared_input": "RIRE_CT_MRI/patient_008_RIRET2__CT_to_MRI_mixed.npz"
+  },
+  {
+    "moving_image_file": "RIRE_preprocessed/imagesTr/patient_101_RIREPD_0000.mhd",
+    "fixed_image_file": "RIRE_preprocessed/imagesTr/patient_101_RIREPD_0001.mhd",
+    "moving_label_file": "",
+    "fixed_label_file": "",
+    "moving_mask_file": "",
+    "fixed_mask_file": "",
+    "moving_landmark_file": "",
+    "fixed_landmark_file": "",
+    "moving_modality": "CT",
+    "fixed_modality": "MRI",
+    "dataset": "RIRE_CT_MRI",
+    "case": "patient_101_RIREPD__CT_to_MRI_mixed",
+    "group": "rire_intensity",
+    "seed": 453974766,
+    "initial_indices": [
+      741,
+      746
+    ],
+    "input_sha256": "8089a221b0a4f438ca496596611496dafae800360265fd67303a797a8b8d6f29",
+    "X_sha256": "e0da7beb306c6b3b7ef2118b2bc3b65c01a7b67bfd6e2e9377b85248b828f9af",
+    "Y_sha256": "0df87febe3d675ef5b0df30504f976266be48f6b3f86765540dcfd0ddc949fab",
+    "center_Y_sha256": "21fec3e5f110ce0e89877d1ba09b3e9f74923ab1bef49f851e50330f87ab0ea2",
+    "scale_sha256": "7327aa55be2db87db32b35e870bd04170e244ceed626c83a30fb5d46fbb14489",
+    "n_points": [
+      10000,
+      10000
+    ],
+    "center_Y": [
+      116.60108947753906,
+      113.14226531982422,
+      59.27669906616211
+    ],
+    "scale": 121.19684600830078,
+    "prepared_input": "RIRE_CT_MRI/patient_101_RIREPD__CT_to_MRI_mixed.npz"
+  },
+  {
+    "moving_image_file": "RIRE_preprocessed/imagesTr/patient_101_RIRET1_0000.mhd",
+    "fixed_image_file": "RIRE_preprocessed/imagesTr/patient_101_RIRET1_0001.mhd",
+    "moving_label_file": "",
+    "fixed_label_file": "",
+    "moving_mask_file": "",
+    "fixed_mask_file": "",
+    "moving_landmark_file": "",
+    "fixed_landmark_file": "",
+    "moving_modality": "CT",
+    "fixed_modality": "MRI",
+    "dataset": "RIRE_CT_MRI",
+    "case": "patient_101_RIRET1__CT_to_MRI_mixed",
+    "group": "rire_intensity",
+    "seed": 392128340,
+    "initial_indices": [
+      1902,
+      6960
+    ],
+    "input_sha256": "2735ad1966aa27966ea2163b0fa2d7237c4743b1d8c4b6ead816752970ee8374",
+    "X_sha256": "3a22c0dd8db23e58d3f75fffd08c0f040b265dd506a301b967c9926bb0721dd1",
+    "Y_sha256": "885c002e8441edbf6aaa0fdc585d0e593f72ed4cf91ad50985bf7ffae67f5b4d",
+    "center_Y_sha256": "f062210be55fd577e7fb54ec93d7f130bdfa9992f5183bfa00d77d9d79db27d4",
+    "scale_sha256": "9e4815b427cb166ff1b7ff14311c4f819c7e5945ff11801f9069488f64329f8d",
+    "n_points": [
+      10000,
+      10000
+    ],
+    "center_Y": [
+      114.82853698730469,
+      112.42608642578125,
+      64.53359985351562
+    ],
+    "scale": 123.13548278808594,
+    "prepared_input": "RIRE_CT_MRI/patient_101_RIRET1__CT_to_MRI_mixed.npz"
+  },
+  {
+    "moving_image_file": "RIRE_preprocessed/imagesTr/patient_101_RIRET2_0000.mhd",
+    "fixed_image_file": "RIRE_preprocessed/imagesTr/patient_101_RIRET2_0001.mhd",
+    "moving_label_file": "",
+    "fixed_label_file": "",
+    "moving_mask_file": "",
+    "fixed_mask_file": "",
+    "moving_landmark_file": "",
+    "fixed_landmark_file": "",
+    "moving_modality": "CT",
+    "fixed_modality": "MRI",
+    "dataset": "RIRE_CT_MRI",
+    "case": "patient_101_RIRET2__CT_to_MRI_mixed",
+    "group": "rire_intensity",
+    "seed": 875604621,
+    "initial_indices": [
+      5211,
+      3985
+    ],
+    "input_sha256": "5e8469e08ea804c708748e19e55430b7e77c4f0b9969b9c8ab097fb4995495d9",
+    "X_sha256": "f8c866bc379630d3eff07bb0e1e72006793560427a28c857f3124c387b87b91c",
+    "Y_sha256": "c4495a9926c8a2f6d6831713aab86ab3bf520e5514a2e5fb62c3cafc79b41c8c",
+    "center_Y_sha256": "25285e5a1504e9d05c109b6d5b69376b127e920955a53ed17850a097ec32dbca",
+    "scale_sha256": "8af97ccbe913e9e39ede1d6f9940ba4ac3f6a80789a44b173bf3667865895c0d",
+    "n_points": [
+      10000,
+      10000
+    ],
+    "center_Y": [
+      116.6884765625,
+      102.46275329589844,
+      57.914398193359375
+    ],
+    "scale": 107.19418334960938,
+    "prepared_input": "RIRE_CT_MRI/patient_101_RIRET2__CT_to_MRI_mixed.npz"
+  },
+  {
+    "moving_image_file": "RIRE_preprocessed/imagesTr/patient_102_RIREPD_0000.mhd",
+    "fixed_image_file": "RIRE_preprocessed/imagesTr/patient_102_RIREPD_0001.mhd",
+    "moving_label_file": "",
+    "fixed_label_file": "",
+    "moving_mask_file": "",
+    "fixed_mask_file": "",
+    "moving_landmark_file": "",
+    "fixed_landmark_file": "",
+    "moving_modality": "CT",
+    "fixed_modality": "MRI",
+    "dataset": "RIRE_CT_MRI",
+    "case": "patient_102_RIREPD__CT_to_MRI_mixed",
+    "group": "rire_intensity",
+    "seed": 994997292,
+    "initial_indices": [
+      4668,
+      856
+    ],
+    "input_sha256": "25f32b8baf0b1e9b05b05fbe1ce65a4a8654658876a2622387b709bedcc1d4a1",
+    "X_sha256": "a8301098bd91b850c1363d2f3487db641443ffa6e75d9e7331b60be69a82dd31",
+    "Y_sha256": "6c0ee223699a0600788d51355fff32b5b957f96d37c27e52d371fc957a8f2e7b",
+    "center_Y_sha256": "d4df5438fc3ad19c58ca03091a74b39c5606eeffa190c8e8ed8c411f51268789",
+    "scale_sha256": "e936fc828ded13175a6c11d93a56ec0dc002cbe148137d1a6274ae22afd5f632",
+    "n_points": [
+      10000,
+      10000
+    ],
+    "center_Y": [
+      110.62081146240234,
+      102.8403091430664,
+      65.46089935302734
+    ],
+    "scale": 117.32454681396484,
+    "prepared_input": "RIRE_CT_MRI/patient_102_RIREPD__CT_to_MRI_mixed.npz"
+  },
+  {
+    "moving_image_file": "RIRE_preprocessed/imagesTr/patient_102_RIRET1_0000.mhd",
+    "fixed_image_file": "RIRE_preprocessed/imagesTr/patient_102_RIRET1_0001.mhd",
+    "moving_label_file": "",
+    "fixed_label_file": "",
+    "moving_mask_file": "",
+    "fixed_mask_file": "",
+    "moving_landmark_file": "",
+    "fixed_landmark_file": "",
+    "moving_modality": "CT",
+    "fixed_modality": "MRI",
+    "dataset": "RIRE_CT_MRI",
+    "case": "patient_102_RIRET1__CT_to_MRI_mixed",
+    "group": "rire_intensity",
+    "seed": 1417960891,
+    "initial_indices": [
+      1855,
+      1580
+    ],
+    "input_sha256": "294ae2011bd64e2224d42e4eec0db06e182eb0724651b46366202de5f23e71e7",
+    "X_sha256": "b5e34e5268831d18e6bb24392ecedc2adb061ee8ba3e6d8af94ebed4d1e42ca1",
+    "Y_sha256": "33c9ccea2538e7198fa698441df0ddf45ae3b4c776b12cbfce7234de9b87db3a",
+    "center_Y_sha256": "8585078345e152ac08b37217b02e07086673f6c1f4626e809ac68bbab4b0df4d",
+    "scale_sha256": "ce8a9e55ba980d677386d58129a66af890e11423c144929d4184d1ca8140e7c0",
+    "n_points": [
+      10000,
+      10000
+    ],
+    "center_Y": [
+      111.1910400390625,
+      103.16608428955078,
+      66.89309692382812
+    ],
+    "scale": 117.91605377197266,
+    "prepared_input": "RIRE_CT_MRI/patient_102_RIRET1__CT_to_MRI_mixed.npz"
+  },
+  {
+    "moving_image_file": "RIRE_preprocessed/imagesTr/patient_102_RIRET2_0000.mhd",
+    "fixed_image_file": "RIRE_preprocessed/imagesTr/patient_102_RIRET2_0001.mhd",
+    "moving_label_file": "",
+    "fixed_label_file": "",
+    "moving_mask_file": "",
+    "fixed_mask_file": "",
+    "moving_landmark_file": "",
+    "fixed_landmark_file": "",
+    "moving_modality": "CT",
+    "fixed_modality": "MRI",
+    "dataset": "RIRE_CT_MRI",
+    "case": "patient_102_RIRET2__CT_to_MRI_mixed",
+    "group": "rire_intensity",
+    "seed": 211138792,
+    "initial_indices": [
+      4900,
+      208
+    ],
+    "input_sha256": "df137538b33d26f42148dc7e8aaaf6630f6d9a362d99dbe871370ddd9ced1b28",
+    "X_sha256": "de144d9c8492e6efab594f0a9e3ce8371604807a0abe4b8aea52b9b6891a1fe6",
+    "Y_sha256": "064f3424b2439991a9194e6c55b88678c8f69e2048f95a09763e072d8bd5684a",
+    "center_Y_sha256": "31114e9aefb053b94b4815c9b8d9c27b93ac5eabe5d72d19b198f2118253eac1",
+    "scale_sha256": "a8345c1a3c221492ab2f30f3bcbe503138802cae143408bf0788f042ac6f90d0",
+    "n_points": [
+      10000,
+      10000
+    ],
+    "center_Y": [
+      110.64712524414062,
+      103.3429946899414,
+      62.03850173950195
+    ],
+    "scale": 107.31132507324219,
+    "prepared_input": "RIRE_CT_MRI/patient_102_RIRET2__CT_to_MRI_mixed.npz"
+  },
+  {
+    "moving_image_file": "RIRE_preprocessed/imagesTr/patient_103_RIREPD_0000.mhd",
+    "fixed_image_file": "RIRE_preprocessed/imagesTr/patient_103_RIREPD_0001.mhd",
+    "moving_label_file": "",
+    "fixed_label_file": "",
+    "moving_mask_file": "",
+    "fixed_mask_file": "",
+    "moving_landmark_file": "",
+    "fixed_landmark_file": "",
+    "moving_modality": "CT",
+    "fixed_modality": "MRI",
+    "dataset": "RIRE_CT_MRI",
+    "case": "patient_103_RIREPD__CT_to_MRI_mixed",
+    "group": "rire_intensity",
+    "seed": 1751706517,
+    "initial_indices": [
+      6580,
+      3862
+    ],
+    "input_sha256": "377ab756b7215ac5f6ac23c26cd71c2a6cf3f9eb67b26762b8605a5d7ed7560f",
+    "X_sha256": "761ec17e5b642981b44b67c6c2913b10ef0dd5293a3c4161c69559dcbb2f054e",
+    "Y_sha256": "d3a5bbb6a4c5f5041e2773be44d58acccb3c4f5f6603b78e0e919c1de1de508c",
+    "center_Y_sha256": "07a4e3009ca45c1a59408212cba1466767b6793469ccdaa5a4e9e21c307c689f",
+    "scale_sha256": "4f96e06781605075dc9840e31069ff82d1aba7618c00b4d035a8845dfa920ef0",
+    "n_points": [
+      10000,
+      10000
+    ],
+    "center_Y": [
+      97.02726745605469,
+      104.62035369873047,
+      69.0342025756836
+    ],
+    "scale": 108.25235748291016,
+    "prepared_input": "RIRE_CT_MRI/patient_103_RIREPD__CT_to_MRI_mixed.npz"
+  },
+  {
+    "moving_image_file": "RIRE_preprocessed/imagesTr/patient_103_RIRET1_0000.mhd",
+    "fixed_image_file": "RIRE_preprocessed/imagesTr/patient_103_RIRET1_0001.mhd",
+    "moving_label_file": "",
+    "fixed_label_file": "",
+    "moving_mask_file": "",
+    "fixed_mask_file": "",
+    "moving_landmark_file": "",
+    "fixed_landmark_file": "",
+    "moving_modality": "CT",
+    "fixed_modality": "MRI",
+    "dataset": "RIRE_CT_MRI",
+    "case": "patient_103_RIRET1__CT_to_MRI_mixed",
+    "group": "rire_intensity",
+    "seed": 849505573,
+    "initial_indices": [
+      2120,
+      9202
+    ],
+    "input_sha256": "c4997111756ab673e1612167e7d00a722c25e3bcb509cfeef3ecca188baa536c",
+    "X_sha256": "8ab004997035bd51bf1b58b38771d754feeb3c5ec10d2329a019f9d8c9bd6442",
+    "Y_sha256": "920d3415b25666d7f0255423788de00b27e539dbcf5410bb0dca959e03ce0a82",
+    "center_Y_sha256": "e9c0b96a7da620dc45da3f349fe068e679d651e4a511dee6e8af2e61224802c7",
+    "scale_sha256": "3a3b451cb4aa46aa7321a9fae2d4f0e836c6887946ebf7a9428237d2423bf254",
+    "n_points": [
+      10000,
+      10000
+    ],
+    "center_Y": [
+      96.9227523803711,
+      103.3847427368164,
+      69.52050018310547
+    ],
+    "scale": 109.53022766113281,
+    "prepared_input": "RIRE_CT_MRI/patient_103_RIRET1__CT_to_MRI_mixed.npz"
+  },
+  {
+    "moving_image_file": "RIRE_preprocessed/imagesTr/patient_104_RIREPD_0000.mhd",
+    "fixed_image_file": "RIRE_preprocessed/imagesTr/patient_104_RIREPD_0001.mhd",
+    "moving_label_file": "",
+    "fixed_label_file": "",
+    "moving_mask_file": "",
+    "fixed_mask_file": "",
+    "moving_landmark_file": "",
+    "fixed_landmark_file": "",
+    "moving_modality": "CT",
+    "fixed_modality": "MRI",
+    "dataset": "RIRE_CT_MRI",
+    "case": "patient_104_RIREPD__CT_to_MRI_mixed",
+    "group": "rire_intensity",
+    "seed": 1227268977,
+    "initial_indices": [
+      5819,
+      5075
+    ],
+    "input_sha256": "6c1aa973f3883bd236a10f133ae5cd1f936e196843ba83f01db20e43dfb4a9b9",
+    "X_sha256": "c146ce3d6e84067dfab1d3272feef97a2a4bb175b3f169cf8b9c570b3c0b5155",
+    "Y_sha256": "cb7a45dfb6eb40cfb9d2eb5b7ad456053f93758e1bf5cef32da0be623b85e5e5",
+    "center_Y_sha256": "15d229019c85d69d19f294a6819039c9e93d55974fba79c88d3f542335f75169",
+    "scale_sha256": "e923ee904ceedae1c675ad4eef4042b2113eea53c6e05ee570fc4cfb50171bca",
+    "n_points": [
+      10000,
+      10000
+    ],
+    "center_Y": [
+      98.04364013671875,
+      102.9537582397461,
+      61.205101013183594
+    ],
+    "scale": 106.45917510986328,
+    "prepared_input": "RIRE_CT_MRI/patient_104_RIREPD__CT_to_MRI_mixed.npz"
+  },
+  {
+    "moving_image_file": "RIRE_preprocessed/imagesTr/patient_104_RIRET1_0000.mhd",
+    "fixed_image_file": "RIRE_preprocessed/imagesTr/patient_104_RIRET1_0001.mhd",
+    "moving_label_file": "",
+    "fixed_label_file": "",
+    "moving_mask_file": "",
+    "fixed_mask_file": "",
+    "moving_landmark_file": "",
+    "fixed_landmark_file": "",
+    "moving_modality": "CT",
+    "fixed_modality": "MRI",
+    "dataset": "RIRE_CT_MRI",
+    "case": "patient_104_RIRET1__CT_to_MRI_mixed",
+    "group": "rire_intensity",
+    "seed": 1401407666,
+    "initial_indices": [
+      2436,
+      9544
+    ],
+    "input_sha256": "d7080cb7dd013d5a910c70556a3fde00c22db1dc36eee4d4fbcd3abf2d6fdb4b",
+    "X_sha256": "1bc3a92692b026191c7321183ba6f3b8e3a2c96394c40985d9f20e6105d366a5",
+    "Y_sha256": "f0423b536ccee80b5e3d1887ea1c2ae6c8293c63674cfc8f4fd1a28151fc127e",
+    "center_Y_sha256": "0f44849fee0ecd0adbb7a6157231800382d6cafc6542075994ec04babc3983e8",
+    "scale_sha256": "631baf87943b6312c30795cd3fb9f907cb36a88a3a9460d3e34ac3d35022f33a",
+    "n_points": [
+      10000,
+      10000
+    ],
+    "center_Y": [
+      99.02696990966797,
+      99.40093231201172,
+      64.82669830322266
+    ],
+    "scale": 108.40958404541016,
+    "prepared_input": "RIRE_CT_MRI/patient_104_RIRET1__CT_to_MRI_mixed.npz"
+  },
+  {
+    "moving_image_file": "RIRE_preprocessed/imagesTr/patient_104_RIRET2_0000.mhd",
+    "fixed_image_file": "RIRE_preprocessed/imagesTr/patient_104_RIRET2_0001.mhd",
+    "moving_label_file": "",
+    "fixed_label_file": "",
+    "moving_mask_file": "",
+    "fixed_mask_file": "",
+    "moving_landmark_file": "",
+    "fixed_landmark_file": "",
+    "moving_modality": "CT",
+    "fixed_modality": "MRI",
+    "dataset": "RIRE_CT_MRI",
+    "case": "patient_104_RIRET2__CT_to_MRI_mixed",
+    "group": "rire_intensity",
+    "seed": 40408343,
+    "initial_indices": [
+      1550,
+      6442
+    ],
+    "input_sha256": "4f96e022b79046c00b4921909a59c3b55c8d65848e18e2764f6eee14b2800948",
+    "X_sha256": "0177c307e8473a73cc48076ebf97087af376f375a2598c10198fa6bf81f37fca",
+    "Y_sha256": "00f1856f725f34e2eeb844b69b81572d1aee639b312d881317fb8b6a5b67b3cd",
+    "center_Y_sha256": "524defcda577f8872252e1c17c229d85bb144eae63f3211b1b043278d2ddf6af",
+    "scale_sha256": "7e6134cd16e4744119fb5cf5870f7f5513258feb92648eb36cd12c462d96ad53",
+    "n_points": [
+      10000,
+      10000
+    ],
+    "center_Y": [
+      97.59661865234375,
+      102.23805236816406,
+      61.08509826660156
+    ],
+    "scale": 104.43263244628906,
+    "prepared_input": "RIRE_CT_MRI/patient_104_RIRET2__CT_to_MRI_mixed.npz"
+  },
+  {
+    "moving_image_file": "RIRE_preprocessed/imagesTr/patient_105_RIRET1_0000.mhd",
+    "fixed_image_file": "RIRE_preprocessed/imagesTr/patient_105_RIRET1_0001.mhd",
+    "moving_label_file": "",
+    "fixed_label_file": "",
+    "moving_mask_file": "",
+    "fixed_mask_file": "",
+    "moving_landmark_file": "",
+    "fixed_landmark_file": "",
+    "moving_modality": "CT",
+    "fixed_modality": "MRI",
+    "dataset": "RIRE_CT_MRI",
+    "case": "patient_105_RIRET1__CT_to_MRI_mixed",
+    "group": "rire_intensity",
+    "seed": 665200041,
+    "initial_indices": [
+      8255,
+      8120
+    ],
+    "input_sha256": "ea88d34f75d9f227b434e5af6a4942ec51e33781f39b8ce2c0d8f1465d9489a2",
+    "X_sha256": "a37eba205ebf0e33639988771bda798cafa3a353860eb242f77dde42191a20ba",
+    "Y_sha256": "87ad48beaaba07e34969f2363ea99303ae1e4d7a7f721678afadbc97391e1f5c",
+    "center_Y_sha256": "51ad5fa782bd2afae104c8d14b5de6b9e18ab79e1653aabe841ae9f3c9eb0416",
+    "scale_sha256": "437de7e47f52dfeaae33f9f02b868744f9f7bb35bfbd8498132e617259cbed2f",
+    "n_points": [
+      10000,
+      10000
+    ],
+    "center_Y": [
+      116.23541259765625,
+      110.73802185058594,
+      66.31620025634766
+    ],
+    "scale": 128.3754425048828,
+    "prepared_input": "RIRE_CT_MRI/patient_105_RIRET1__CT_to_MRI_mixed.npz"
+  },
+  {
+    "moving_image_file": "RIRE_preprocessed/imagesTr/patient_105_RIRET2_0000.mhd",
+    "fixed_image_file": "RIRE_preprocessed/imagesTr/patient_105_RIRET2_0001.mhd",
+    "moving_label_file": "",
+    "fixed_label_file": "",
+    "moving_mask_file": "",
+    "fixed_mask_file": "",
+    "moving_landmark_file": "",
+    "fixed_landmark_file": "",
+    "moving_modality": "CT",
+    "fixed_modality": "MRI",
+    "dataset": "RIRE_CT_MRI",
+    "case": "patient_105_RIRET2__CT_to_MRI_mixed",
+    "group": "rire_intensity",
+    "seed": 1264140603,
+    "initial_indices": [
+      3269,
+      5837
+    ],
+    "input_sha256": "da3aec037721b254ad3198bf4d027cde9415c78506b190dcd08af6e653c4d7f7",
+    "X_sha256": "803f2ca178ade675d00208466eb8de0838d2ace23a0b5fd8db6caef60ad69ae3",
+    "Y_sha256": "71e6a5828b7a0105e5c6eae8d80bc2af771087adbe18cfb91baf5140056f3a6b",
+    "center_Y_sha256": "bd55917a4f6574a600b75276d3b6e86202698ef04d9f80abb72137edaf6d00f3",
+    "scale_sha256": "37c99f6ea28fa027996fe2d4825d12cf49952c18f4bef1a989fbf3e242f66c1b",
+    "n_points": [
+      10000,
+      10000
+    ],
+    "center_Y": [
+      118.10488891601562,
+      115.47862243652344,
+      70.10579681396484
+    ],
+    "scale": 127.92962646484375,
+    "prepared_input": "RIRE_CT_MRI/patient_105_RIRET2__CT_to_MRI_mixed.npz"
+  },
+  {
+    "moving_image_file": "RIRE_preprocessed/imagesTr/patient_106_RIRET1_0000.mhd",
+    "fixed_image_file": "RIRE_preprocessed/imagesTr/patient_106_RIRET1_0001.mhd",
+    "moving_label_file": "",
+    "fixed_label_file": "",
+    "moving_mask_file": "",
+    "fixed_mask_file": "",
+    "moving_landmark_file": "",
+    "fixed_landmark_file": "",
+    "moving_modality": "CT",
+    "fixed_modality": "MRI",
+    "dataset": "RIRE_CT_MRI",
+    "case": "patient_106_RIRET1__CT_to_MRI_mixed",
+    "group": "rire_intensity",
+    "seed": 836168326,
+    "initial_indices": [
+      5892,
+      9795
+    ],
+    "input_sha256": "c5f39c053dd5cce00ebdbf04d569b8092514063fec05944d6a9e54a7af187df1",
+    "X_sha256": "3259d6284f724926106e01097a5dac5b8b4abeda03bff84c986b19820c334345",
+    "Y_sha256": "608ffc1b4917f43f8913865b322d3abf679279fc3a93507b42a8ec7b74211f31",
+    "center_Y_sha256": "fe9a2ba6d490632c10d28b99c1a57acc52ac9220417fd3ceef062d9c01efac6a",
+    "scale_sha256": "9e2c72a3fd5d4ee717c96b74d9c470378b3d45b36deb027fc7b90e2372b60442",
+    "n_points": [
+      10000,
+      10000
+    ],
+    "center_Y": [
+      106.65247344970703,
+      108.8765640258789,
+      70.28160095214844
+    ],
+    "scale": 120.6733169555664,
+    "prepared_input": "RIRE_CT_MRI/patient_106_RIRET1__CT_to_MRI_mixed.npz"
+  },
+  {
+    "moving_image_file": "RIRE_preprocessed/imagesTr/patient_106_RIRET2_0000.mhd",
+    "fixed_image_file": "RIRE_preprocessed/imagesTr/patient_106_RIRET2_0001.mhd",
+    "moving_label_file": "",
+    "fixed_label_file": "",
+    "moving_mask_file": "",
+    "fixed_mask_file": "",
+    "moving_landmark_file": "",
+    "fixed_landmark_file": "",
+    "moving_modality": "CT",
+    "fixed_modality": "MRI",
+    "dataset": "RIRE_CT_MRI",
+    "case": "patient_106_RIRET2__CT_to_MRI_mixed",
+    "group": "rire_intensity",
+    "seed": 659265796,
+    "initial_indices": [
+      5087,
+      1084
+    ],
+    "input_sha256": "6c13edbe4fe69ef67cd5c48d8537154d15475dd58a4ec9290b2b6ee41d3db7f7",
+    "X_sha256": "ce48f24bf4ce685998394e2224db970c649b8467e4734358b1f896bb37f83eca",
+    "Y_sha256": "c676ac26c5698546fd6789dde37aeedc2228853a76fad00be7ea344d4aed6686",
+    "center_Y_sha256": "1e7981ead94cabf135223739fd7bf89f32e18f9a02e2e4c1af0ef6a489536eb5",
+    "scale_sha256": "2a7ba954c69de1d4b34cccb63bd32a2f1f17aedf6002b2d24e17923110221ff2",
+    "n_points": [
+      10000,
+      10000
+    ],
+    "center_Y": [
+      105.20406341552734,
+      111.77999877929688,
+      67.50420379638672
+    ],
+    "scale": 105.919189453125,
+    "prepared_input": "RIRE_CT_MRI/patient_106_RIRET2__CT_to_MRI_mixed.npz"
+  },
+  {
+    "moving_image_file": "RIRE_preprocessed/imagesTr/patient_107_RIRET1_0000.mhd",
+    "fixed_image_file": "RIRE_preprocessed/imagesTr/patient_107_RIRET1_0001.mhd",
+    "moving_label_file": "",
+    "fixed_label_file": "",
+    "moving_mask_file": "",
+    "fixed_mask_file": "",
+    "moving_landmark_file": "",
+    "fixed_landmark_file": "",
+    "moving_modality": "CT",
+    "fixed_modality": "MRI",
+    "dataset": "RIRE_CT_MRI",
+    "case": "patient_107_RIRET1__CT_to_MRI_mixed",
+    "group": "rire_intensity",
+    "seed": 59240788,
+    "initial_indices": [
+      8049,
+      1471
+    ],
+    "input_sha256": "1b4ddae61ba43c1a7c2351df8b610f2b4eeff066f84c90dc4bb30e2797c355e8",
+    "X_sha256": "017175dfdfdadc42bbb67b57d5a4b991b18995832bfae25e4d84d6f934897b31",
+    "Y_sha256": "a004550b3fc5c996cf7197cbbe6fe6659a33a5c57a6b8408e1075109480c406f",
+    "center_Y_sha256": "797d1f6201a265671cb27327868720ce412365585b8f12fd7513d38a86db359e",
+    "scale_sha256": "8dce9a8e91ea4d76dafa8c97e4739ebfaa5346fd8f48a005f88233f785144eeb",
+    "n_points": [
+      10000,
+      10000
+    ],
+    "center_Y": [
+      102.43621063232422,
+      109.88722229003906,
+      67.42739868164062
+    ],
+    "scale": 124.00128936767578,
+    "prepared_input": "RIRE_CT_MRI/patient_107_RIRET1__CT_to_MRI_mixed.npz"
+  },
+  {
+    "moving_image_file": "RIRE_preprocessed/imagesTr/patient_107_RIRET2_0000.mhd",
+    "fixed_image_file": "RIRE_preprocessed/imagesTr/patient_107_RIRET2_0001.mhd",
+    "moving_label_file": "",
+    "fixed_label_file": "",
+    "moving_mask_file": "",
+    "fixed_mask_file": "",
+    "moving_landmark_file": "",
+    "fixed_landmark_file": "",
+    "moving_modality": "CT",
+    "fixed_modality": "MRI",
+    "dataset": "RIRE_CT_MRI",
+    "case": "patient_107_RIRET2__CT_to_MRI_mixed",
+    "group": "rire_intensity",
+    "seed": 1068037477,
+    "initial_indices": [
+      66,
+      7548
+    ],
+    "input_sha256": "3d7d001bc4e5b5c0ebc93e4676ede86c372adff97b3636a05adbe8f143a70e92",
+    "X_sha256": "0f437a26922b63a503d860193f44ec4b76098c229b3b419834ea612479c55c25",
+    "Y_sha256": "9cca0796174c00fa861aed722c7e222a379acf59a6ce481813f31aac79a883cc",
+    "center_Y_sha256": "e6fb216fda9848a9d8ab9198f5840ff33b8b2207776a78b7739b5dbda8f438b6",
+    "scale_sha256": "9455ab58f83e5b4883f884cc26c6f8f8bb5f8a14a1c94ce06585151bfe4ee1b0",
+    "n_points": [
+      10000,
+      10000
+    ],
+    "center_Y": [
+      100.95618438720703,
+      112.36327362060547,
+      65.64299774169922
+    ],
+    "scale": 116.70111083984375,
+    "prepared_input": "RIRE_CT_MRI/patient_107_RIRET2__CT_to_MRI_mixed.npz"
+  },
+  {
+    "moving_image_file": "RIRE_preprocessed/imagesTr/patient_108_RIRET1_0000.mhd",
+    "fixed_image_file": "RIRE_preprocessed/imagesTr/patient_108_RIRET1_0001.mhd",
+    "moving_label_file": "",
+    "fixed_label_file": "",
+    "moving_mask_file": "",
+    "fixed_mask_file": "",
+    "moving_landmark_file": "",
+    "fixed_landmark_file": "",
+    "moving_modality": "CT",
+    "fixed_modality": "MRI",
+    "dataset": "RIRE_CT_MRI",
+    "case": "patient_108_RIRET1__CT_to_MRI_mixed",
+    "group": "rire_intensity",
+    "seed": 291563798,
+    "initial_indices": [
+      2669,
+      2712
+    ],
+    "input_sha256": "8b12e50c8ddbd97a412060ffcbcd6e09cec666d42176677fd1df59e9bd664d77",
+    "X_sha256": "7672e3c9dd133c33388bbd675ac65670721939e7a769c56a90b6e3ffa7b1a27d",
+    "Y_sha256": "411fc4e0d7548d9f5231115d4f56c8699d6510c41a9e86feda5530a56de92121",
+    "center_Y_sha256": "5126c5b97ffce1e76d81057fc37b0406304cc863790f9d8ccecdf99872bd0e2a",
+    "scale_sha256": "bc28477d4fe144a0485edc9cbe7d5e483ace8811afafb5420399229be9b9913f",
+    "n_points": [
+      10000,
+      10000
+    ],
+    "center_Y": [
+      110.57467651367188,
+      105.01543426513672,
+      66.55139923095703
+    ],
+    "scale": 119.8133773803711,
+    "prepared_input": "RIRE_CT_MRI/patient_108_RIRET1__CT_to_MRI_mixed.npz"
+  },
+  {
+    "moving_image_file": "RIRE_preprocessed/imagesTr/patient_108_RIRET2_0000.mhd",
+    "fixed_image_file": "RIRE_preprocessed/imagesTr/patient_108_RIRET2_0001.mhd",
+    "moving_label_file": "",
+    "fixed_label_file": "",
+    "moving_mask_file": "",
+    "fixed_mask_file": "",
+    "moving_landmark_file": "",
+    "fixed_landmark_file": "",
+    "moving_modality": "CT",
+    "fixed_modality": "MRI",
+    "dataset": "RIRE_CT_MRI",
+    "case": "patient_108_RIRET2__CT_to_MRI_mixed",
+    "group": "rire_intensity",
+    "seed": 934128085,
+    "initial_indices": [
+      8973,
+      1094
+    ],
+    "input_sha256": "8a9a346ca4a7298c26a4a5bec8df7cfdac293996c1649dce34dc62007b6b5d7a",
+    "X_sha256": "781ffe3bceef2eb8b1819fc02e99253cc19e3a22aa1eb41e270cee5991d0feaa",
+    "Y_sha256": "2d06d800b271d763a47f06dccc907b5005a818596bbacad7162c62cf2c4bec3b",
+    "center_Y_sha256": "717f2c11c6f4f66dba00ca3529522448d77a5c4d008bb44429e1535ee6b42a47",
+    "scale_sha256": "d3d77825000e09422616b4d65161289e209a526b475f4c9ec016e5591c00fd86",
+    "n_points": [
+      10000,
+      10000
+    ],
+    "center_Y": [
+      109.8042221069336,
+      105.28485870361328,
+      65.1498031616211
+    ],
+    "scale": 108.21685028076172,
+    "prepared_input": "RIRE_CT_MRI/patient_108_RIRET2__CT_to_MRI_mixed.npz"
+  },
+  {
+    "moving_image_file": "RIRE_preprocessed/imagesTr/patient_109_RIRET1_0000.mhd",
+    "fixed_image_file": "RIRE_preprocessed/imagesTr/patient_109_RIRET1_0001.mhd",
+    "moving_label_file": "",
+    "fixed_label_file": "",
+    "moving_mask_file": "",
+    "fixed_mask_file": "",
+    "moving_landmark_file": "",
+    "fixed_landmark_file": "",
+    "moving_modality": "CT",
+    "fixed_modality": "MRI",
+    "dataset": "RIRE_CT_MRI",
+    "case": "patient_109_RIRET1__CT_to_MRI_mixed",
+    "group": "rire_intensity",
+    "seed": 1947944840,
+    "initial_indices": [
+      5898,
+      7654
+    ],
+    "input_sha256": "38428c54f490a66ecefd615bca3cc7a4eff463cf4f1a414d0f8215655318a4e9",
+    "X_sha256": "30377b667dd9e9818c4544f445c5c56579a47093edd6fd6e7e7f08f7247bb9d0",
+    "Y_sha256": "f6ba3f2d43cd84e13fd514579197defe483983754c8bd44591e07ba6580ec845",
+    "center_Y_sha256": "4ec35c3a8780a9d969758716c63730654bf713922393b5a3ca37a9ce1125590f",
+    "scale_sha256": "9231f9f261fd8222ff6c1602a0b2e671216cc70cc7e3660527b54bb8942c6382",
+    "n_points": [
+      10000,
+      10000
+    ],
+    "center_Y": [
+      111.30962371826172,
+      109.26201629638672,
+      69.37830352783203
+    ],
+    "scale": 117.67030334472656,
+    "prepared_input": "RIRE_CT_MRI/patient_109_RIRET1__CT_to_MRI_mixed.npz"
+  },
+  {
+    "moving_image_file": "RIRE_preprocessed/imagesTr/patient_109_RIRET2_0000.mhd",
+    "fixed_image_file": "RIRE_preprocessed/imagesTr/patient_109_RIRET2_0001.mhd",
+    "moving_label_file": "",
+    "fixed_label_file": "",
+    "moving_mask_file": "",
+    "fixed_mask_file": "",
+    "moving_landmark_file": "",
+    "fixed_landmark_file": "",
+    "moving_modality": "CT",
+    "fixed_modality": "MRI",
+    "dataset": "RIRE_CT_MRI",
+    "case": "patient_109_RIRET2__CT_to_MRI_mixed",
+    "group": "rire_intensity",
+    "seed": 81386245,
+    "initial_indices": [
+      7444,
+      2940
+    ],
+    "input_sha256": "882697dcf2cecab2e20baec1525a0eb6ce5f3e11055f5c143ebd89c4dc9eca45",
+    "X_sha256": "caf3b3d47d3c431e026020045adff1425ae0cd7cb0768f2a3653eadeaecce022",
+    "Y_sha256": "4837e4387711c6b38c54d2f1a41f3fbc8ee58ae1ea11b1ba7b0862078d53864e",
+    "center_Y_sha256": "4a9a5bddd819b28878f4ade35f3a63df5f2c860d74c559a72bde3034957aba9c",
+    "scale_sha256": "a235969bdb297b9d09938b88329cd1265318023459d458b17385447434c7e290",
+    "n_points": [
+      10000,
+      10000
+    ],
+    "center_Y": [
+      110.11592864990234,
+      112.93164825439453,
+      63.9734992980957
+    ],
+    "scale": 108.4311752319336,
+    "prepared_input": "RIRE_CT_MRI/patient_109_RIRET2__CT_to_MRI_mixed.npz"
+  }
+]
